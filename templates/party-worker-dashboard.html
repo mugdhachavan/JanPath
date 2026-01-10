@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Party Worker Panel - Election Management</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Unified Dashboard Styles -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}"/>
+</head>
+<body>
+
+<header class="main-header">
+  <div class="header-content">
+    <a href="{{ url_for('index') }}" class="logo">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" style="height: 80px;">
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav">
+        <li><a href="#" class="active" onclick="showSection('manageVoters')">Manage Voters</a></li>
+        <li><a href="#" onclick="showSection('householdData')">Household Data</a></li>
+        <li><a href="#" onclick="showSection('campaignTasks')">Campaign Tasks</a></li>
+        <li><a href="#" onclick="showSection('communication')">Communication</a></li>
+        <li><a href="#" onclick="showSection('reports')">Reports & Feedback</a></li>
+      </ul>
+    </nav>
+
+    <div class="user-menu">
+      <span>Welcome, Worker</span>
+      <a href="{{ url_for('index') }}" class="logout-btn">Logout</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <!-- ========= Manage Voters ========= -->
+    <section id="manageVoters" class="dashboard-section active">
+      <h3>Voter List in Your Assigned Wards</h3>
+      <p class="section-subtitle">Search and manage voters from the database.</p>
+
+      <form id="searchForm" class="search-container" onsubmit="doSearch(event)">
+        <div class="filters">
+          <label for="entriesPerPage">Show</label>
+          <select id="entriesPerPage">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+
+          <select id="genderFilter">
+            <option value="">All Genders</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+
+          <input type="text" id="searchInput" placeholder="Search by Name, EPIC, Age, etc...."/>
+        </div>
+
+        <button id="searchBtn" type="submit">Search</button>
+      </form>
+
+      <!-- Voters Table -->
+      <div class="table-responsive">
+        <table aria-label="Voters table">
+          <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Father/Husband</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>House Number</th>
+            <th>EPIC Number</th>
+            <th>Political Affiliation</th>
+          </tr>
+        </thead>
+          <tbody id="workerVotersTableBody">
+            <tr><td colspan="8">Loading...</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pagination Controls -->
+      <div id="pagination" role="navigation" aria-label="Voter pagination">
+        <button id="prevPage" type="button">Prev</button>
+        <span id="pageInfo">Page 1</span>
+        <button id="nextPage" type="button">Next</button>
+      </div>
+
+      <hr/>
+    </section>
+
+<!-- ========= Household Data ========= -->
+<section id="householdData" class="dashboard-section" style="display:none;">
+  <h3>Household Data</h3>
+  <p class="section-subtitle">Grouped voters by house number with search and pagination.</p>
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <div class="filters">
+      <label for="householdEntriesPerPage">Show</label>
+      <select id="householdEntriesPerPage">
+        <option value="10">10</option>
+        <option value="25" selected>25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+
+      <input type="text" id="householdSearchInput" placeholder="Search by house number..."/>
+    </div>
+
+    <button id="householdSearchBtn" type="button">Search</button>
+  </div>
+
+  <div class="table-responsive">
+    <table id="householdTable" aria-label="Household table">
+      <thead>
+        <tr>
+          <th>House Number</th>
+          <th>Voters</th>
+        </tr>
+      </thead>
+      <tbody id="householdTableBody">
+        <tr><td colspan="2">Loading...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+    <!-- Pagination Controls -->
+    <div id="householdPagination" role="navigation" aria-label="Household pagination">
+      <button id="householdPrevPage" type="button">Prev</button>
+      <span id="householdPageInfo">Page 1 of 1</span>
+      <button id="householdNextPage" type="button">Next</button>
+    </div>
+    </section>
+
+
+    <!-- ========= Campaign Tasks ========= -->
+    <section id="campaignTasks" class="dashboard-section" style="display:none;">
+      <h3>Campaign Tasks</h3>
+      <p class="section-subtitle">Create and track tasks assigned to you.</p>
+
+      <!-- New Task Form -->
+      <form id="taskForm" class="form-grid" autocomplete="off">
+        <div class="form-group">
+          <label for="taskTitle">Title</label>
+          <input id="taskTitle" name="title" type="text" placeholder="Task title" required minlength="3"/>
+        </div>
+
+        <div class="form-group">
+          <label for="taskDescription">Description</label>
+          <input id="taskDescription" name="description" type="text" placeholder="Short description" minlength="3"/>
+        </div>
+
+        <div class="form-group">
+          <label for="taskDueDate">Due Date</label>
+          <input id="taskDueDate" name="due_date" type="date" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="taskStatus">Status</label>
+          <select id="taskStatus" name="status" required>
+            <option value="Pending" selected>Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>&nbsp;</label>
+          <button type="submit">Add Task</button>
+        </div>
+      </form>
+
+<!-- Tasks Table -->
+      <div class="table-responsive">
+        <table id="taskTable" aria-label="Tasks table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Status</th>
+              <th>Due Date</th>
+              <th>Actions</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="taskTableBody">
+            <tr><td colspan="6">Loading...</td></tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+<!-- ========= Communication ========= -->
+    <section id="communication" class="dashboard-section" style="display:none;">
+      <h3>Communication</h3>
+      <p class="section-subtitle">Send outreach messages and view recent communications.</p>
+
+      <!-- New Message Form -->
+      <form id="messageForm" autocomplete="off">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="messageTitle">Title</label>
+            <input id="messageTitle" name="title" type="text" placeholder="Message title" required minlength="3"/>
+          </div>
+
+          <div class="form-group">
+            <label for="messageAudience">Audience</label>
+            <input id="messageAudience" name="audience" type="text" placeholder="All / Ward-12 / EPIC CSV" required/>
+          </div>
+
+          <div class="form-group" style="grid-column: 1 / -1;">
+            <label for="messageBody">Body</label>
+            <textarea id="messageBody" name="body" placeholder="Write your message..." rows="4" required minlength="5"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Messages List -->
+      <div id="messagesContainer" class="card-list" aria-live="polite"></div>
+    </section>
+
+<!-- ========= Reports & Feedback ========= -->
+    <section id="reports" class="dashboard-section" style="display:none;">
+      <h3>Reports & Feedback</h3>
+      <p class="section-subtitle">Submit your daily updates and track what you've sent.</p>
+
+      <!-- New Report Form -->
+      <form id="reportForm" autocomplete="off">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="reportTitle">Title</label>
+            <input id="reportTitle" name="title" type="text" placeholder="Report title" required minlength="3"/>
+          </div>
+
+          <div class="form-group">
+            <label for="reportDate">Work Date</label>
+            <input id="reportDate" name="date" type="date" required/>
+          </div>
+
+          <div class="form-group" style="grid-column: 1 / -1;">
+            <label for="reportContent">Content</label>
+            <textarea id="reportContent" name="content" placeholder="What did you do today?" rows="5" required minlength="5"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Submit Report</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Reports List -->
+      <div id="reportsContainer" class="card-list" aria-live="polite"></div>
+    </section>
+
+<!-- ======== Edit Voter Modal ======== -->
+<div id="editVoterModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <h3>Edit Voter Details</h3>
+    <input type="hidden" id="editVoterId"/>
+
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="editMobileNumber">Mobile Number</label>
+        <input id="editMobileNumber" type="tel" placeholder="Enter mobile number"
+               pattern="[0-9]{10}" minlength="10" maxlength="10" required
+               title="Enter a valid 10-digit mobile number"/>
+      </div>
+
+      <div class="form-group">
+        <label for="editOccupation">Occupation</label>
+        <input id="editOccupation" type="text" placeholder="Enter occupation" required minlength="2"/>
+      </div>
+
+      <div class="form-group">
+        <label for="editEducationLevel">Education Level</label>
+        <input id="editEducationLevel" type="text" placeholder="Enter education level" required/>
+      </div>
+
+      <div class="form-group">
+      <label for="editPoliticalAffiliation">Political Affiliation</label>
+      <select id="editPoliticalAffiliation">
+        <option value="">Select...</option>
+        <option value="Supporter">Supporter</option>
+        <option value="Opponent">Opponent</option>
+        <option value="SwingVoter">Swing Voter</option>
+      </select>
+      </div>
+
+
+      <div class="form-group" style="grid-column: 1 / -1;">
+        <label for="editKeyIssues">Key Issues</label>
+        <textarea id="editKeyIssues" rows="3" placeholder="Voter concerns/issues"></textarea>
+      </div>
+
+      <div class="form-group" style="grid-column: 1 / -1;">
+        <label for="editRemarks">Remarks</label>
+        <textarea id="editRemarks" rows="3" placeholder="Additional remarks"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" onclick="saveVoterDetails()">Save</button>
+        <button type="button" onclick="closeEditVoterModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Voter Location Modal -->
+<div id="locationModal" class="modal" style="display:none; position:fixed;
+  top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);
+  justify-content:center; align-items:center; z-index:10000;">
+  
+  <div class="modal-content" style="background:#fff; padding:20px; width:400px;
+    border-radius:8px; position:relative;">
+
+    <h3 id="voterNameTitle">Voter Location</h3>
+
+    <label><strong>Landmark</strong></label>
+    <input id="locationLandmark" type="text" class="input"
+      placeholder="Near school, temple, shop etc"
+      style="width:100%; margin-bottom:10px;">
+
+    <label><strong>Pin Location on Map</strong></label>
+    <div id="mapView" style="height:300px; width:100%; border-radius:6px; margin:10px 0;"></div>
+
+    <div style="display:flex; justify-content:space-between;">
+      <button class="btn btn-secondary" onclick="closeLocationModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveLocationDetails()">Save</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- Leaflet Map Library -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<footer class="main-footer">
+  <p>&copy; 2025 Election Management System. All Rights Reserved.</p>
+</footer>
+
+<!-- Worker dashboard logic -->
+<script src="{{ url_for('static', filename='js/worker.js') }}"></script>
+</body>
+</html>

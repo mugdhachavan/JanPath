@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Election Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/dashboard.css')}}">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+				<img src="static/images/logo.png" alt="Winning Elections with Precision Analytics Logo" style="height: 80px;">
+			</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active" onclick="showSection('manageWards')">Manage Wards</a></li>
+                    <li><a href="#" onclick="showSection('manageWorkers')">Manage Workers</a></li>
+                    <li><a href="#" onclick="showSection('importData')">Import Data</a></li>
+                    <li><a href="#" onclick="showSection('viewAnalytics')">Analytics</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <span>Welcome, Admin</span>
+                <a href="index.html" class="logout-btn">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="manageWards" class="dashboard-section active">
+                <h3>Manage Wards</h3>
+                <div class="form-group">
+                    <label for="wardName">Ward Name:</label>
+                    <input type="text" id="wardName" placeholder="e.g., Ward 101" required>
+                </div>
+                <button onclick="addWard()">Add Ward</button>
+
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ward Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="wardsTableBody">
+                            <tr>
+                                <td>1</td>
+                                <td>Ward A</td>
+                                <td class="action-buttons">
+                                    <button class="edit" onclick="editWard(1, 'Ward A')">Edit</button>
+                                    <button class="delete" onclick="deleteWard(1)">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ward B</td>
+                                <td class="action-buttons">
+                                    <button class="edit" onclick="editWard(2, 'Ward B')">Edit</button>
+                                    <button class="delete" onclick="deleteWard(2)">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="manageWorkers" class="dashboard-section" style="display:none;">
+                <h3>Manage Party Workers and Assign Wards</h3>
+                <div class="form-group">
+                    <label for="workerName">Worker Name:</label>
+                    <input type="text" id="workerName" placeholder="Worker Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="workerUsername">Username:</label>
+                    <input type="text" id="workerUsername" placeholder="Unique Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="workerPassword">Password:</label>
+                    <input type="text" id="workerPassword" value="defaultpassword" readonly>
+                </div>
+                <button onclick="addWorker()">Add Worker</button>
+
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Worker Name</th>
+                                <th>Assigned Wards</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="workersTableBody">
+                            <tr>
+                                <td>101</td>
+                                <td>Ravi Kumar</td>
+                                <td>Ward A, Ward C</td>
+                                <td class="action-buttons">
+                                    <button class="edit" onclick="editWorker(101, 'Ravi Kumar')">Edit</button>
+                                    <button class="assign" onclick="assignWards(101)">Assign Wards</button>
+                                    <button class="delete" onclick="deleteWorker(101)">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="importData" class="dashboard-section" style="display:none;">
+                <h3>Import Bulk Voter Data</h3>
+                <p>Upload an Excel (.xlsx) or CSV (.csv) file containing voter information.</p>
+                <div class="form-group">
+                    <label for="voterFile">Choose File:</label>
+                    <input type="file" id="voterFile" accept=".csv, .xls, .xlsx">
+                </div>
+                <button onclick="importVoterData()">Upload and Import</button>
+                <div id="importStatus" style="margin-top: 15px;"></div>
+            </section>
+
+            <section id="viewAnalytics" class="dashboard-section" style="display:none;">
+                <h3>View Analytics & Charts (Ward-wise)</h3>
+                <div class="form-group">
+                    <label for="analyticsWardSelect">Select Ward:</label>
+                    <select id="analyticsWardSelect" onchange="loadAnalytics()">
+                        <option value="">All Wards</option>
+                        <option value="1">Ward A</option>
+                        <option value="2">Ward B</option>
+                        </select>
+                </div>
+                <div class="chart-placeholder">
+                    <p>Charts and graphs will appear here. (e.g., Voter distribution by age, gender, caste for selected ward.)</p>
+                    <img src="static/images/placeholder_chart_age.png" alt="Age Chart Placeholder">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Election Management System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="{{url_for('static', filename = 'js/main.js')}}"></script>
+    <script src="{{url_for('static', filename = 'js/admin.js')}}"></script>
+</body>
+</html>

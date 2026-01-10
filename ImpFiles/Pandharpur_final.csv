@@ -1,0 +1,965 @@
+ID,Name,Father's or Husband's name,Age,Gender,House number,EPIC number
+1,Santosh Baburao Dhigale,Baburao Dhigale,35,Male,-,SZH2901122
+2,JYASHRI AMAR GANDULE,AMAR GANDULE,57,Female,-,SZH7022460
+3,ambika KAILAS kapase,KAILAS kapase,42,Female,-,SZH6952295
+4,Majadar Ishaq Khan,Ishaq Khan,33,Male,-,SZH2027019
+5,SHRADHA SANJAY KURNAVAL,SANJAY KURNAVAL,30,Female,-,SZH7022437
+6,Abhishek Sanjay Kurnaval,Sanjay Kurnaval,27,Male,-,SZH7168057
+7,Sadhana Jyotiba Patil,Jyotiba Patil,55,Female,-,SZH7119506
+8,Shridevi Vitthal Sangave,Vitthal Sangave,26,Female,-,SZH7350978
+9,SNEHAL YOGIRAJ SHETE,YOGIRAJ SHETE,33,Female,-,SZH7022445
+10,SHIVPRASAD NANDKUMAR SWAMI,NANDKUMAR SWAMI,38,Male,-,SZH7022361
+11,DHANSHRI SHIVPRASAD SWAMI,SHIVPRASAD SWAMI,31,Female,-,SZH7022387
+12,SUPRIYA NANDAKISHOR SWAMI,NANDAKISHOR SWAMI,30,Female,-,SZH7022395
+13,SHUBHAM NANDKISHOR SWAMI,NANDKISHOR SWAMI,28,Male,-,SZH7022379
+14,SAMINA AJIJ TAMBOLI,Aziz Tambolli,41,Female,-,SZH6952345
+15,Mehbub Jalal Tamboll,Jalal Tamboll,31,Female,-,SZH6203608
+16,GURUNATH VITTHAL UMBARE,VITTHAL UMBARE,31,Male,-,SZH7022452
+17,SANDIP SUBHASH VIBHUTE,SUBHASH VIBHUTE,30,Male,-,SZH7022411
+18,AKSHAY SUBHASH VIBHUTE,SUBHASH VIBHUTE,28,Male,-,SZH7022429
+19,AJINKYA SUNIL YADAV,SUNIL YADAV,30,Male,-,SZH6952311
+20,SHUBHAM SUNIL YADAV,SUNIL YADAV,27,Male,-,SZH7022403
+21,Megha Rahul Zadbuke,Rahul Zadbuke,40,Female,-,SZH6655880
+22,Pooja Bhujbal,Vitthal Bhujbal,27,Female,-,SZH8137531
+23,pradhumn Gorakh Chavan,Gorakh Chavan,22,Male,-,SZH7478662
+24,manisha gaikwad,damu gaikwad,34,Female,-,SZH8257420
+25,Jyoti Kurnawal,Kishor Kurnawal,29,Female,-,SZH7611569
+26,Usha Sanjay Mane,Sanjay Mane,44,Female,-,SZH6656011
+27,Akshay Menkudale,Anil Menkudale,28,Male,-,SZH7605330
+28,meera nagmal,nagesh nagmal,28,Female,-,SZH7618564
+29,Rekha Nagmal,Krunal Nagmal,25,Female,-,SZH7605249
+30,Prachi Digambar Mane,Digambar Yashavant Mane,22,Female,124,SZH7635634
+31,Akanksha Pawale,Vinod Pavale,21,Female,-,SZH8154098
+32,Aditya Pavale,Ganesh Pawale,28,Male,-,SZH7605298
+33,Harshada Sawant,Vitthal Sawant,20,Female,-,SZH8306581
+34,vijya vagarkar,nilesh vagarkar,46,Female,-,SZH7618572
+35,Priya Vibhute,Rahul Vibhute,26,Female,-,SZH7605215
+36,Vallabh Watharkar,Subhash Watharkar,23,Male,-,SZH8258915
+37,Amruta Mukesh Nagmal,Mukesh Nagmal,30,Female,125,SZH8398489
+38,Aarti Vairagkar,Prashant Vairagkar,19,Female,Near Wagol Bliding,SZH7444839
+39,Prashant Ramchandra Vairagkar,Ramchandra Vairagkar,26,Male,359,SZH7168032
+40,Pradip Jyotiba Patil,Jyotiba Patil,25,Male,365,SZH7119498
+41,Abhishek Shivakant Swami,Shivakant Swami,32,Male,363,SZH7168016
+42,Dnyanewshari Prakash Aiwale,Prakash Alwale,29,Female,431,SZH7350945
+43,Natasha Narmdev Balekar,Namdev Balekar,27,Female,431,SZH7350911
+44,Kalika Kamble,Kamble,32,Female,431,SZH7350952
+45,Yashoda Mahadhik,Mahadhik,26,Female,431,SZH7350929
+46,Priya Ashok Shinde,Ashok Shinde,25,Female,431,SZH7350937
+47,Surekha Pawar,Pawar,29,Female,431,SZH7350960
+48,Anamika Yadav,Yadav,39,Female,431,SZH7350903
+49,Swati Vinod Pawar,Vinod Pawar,33,Female,4045,SZH6003172
+50,Mukesh Mahadev Nagmal,Mahadev Nagmal,32,Male,4075,SZH7384522
+51,Saziya Illahi Tamboli,llahi Tamboli,47,Female,4136,DMV1913789
+52,Javed Mohammad Hussain Tamboll,Mohammad Hussain Tamboli,46,Male,4136,DMV1913888
+53,Gaus Mohammad Hussain Tamboli,Mohammad Tamboli,46,Male,4136,DMV1913607
+54,Abu Ibulal Tamboll,Ibulal Tamboli,73,Male,4136b,SZH7732902
+55,Yaseen Ibulal Tamboll,Ibulal Tamboli,68,Male,4136b,SZH7732951
+56,Hayatabi Nasir Tamboll,Nasir Tamboll,67,Female,4136b,DMV1877307
+57,Musa Ibulal Tamboll,Ibulal Tamboll,64,Male,4136b.,SZH7732910
+58,Mohammad Hussain Tamboli,Hussain Tamboli,63,Female,4136b,SZH7732944
+59,Bibi Yaseen Tamboli,Yaseen Tamboli,62,Male,4136b,DMV1906346
+60,Yunnus Ibulal Tamboll,Ibulal Tamboli,61,Male,4136b,SZH7732928
+61,Noorjan Musa Tamboli,Musa Tamboll,60,Female,4136b,SZH7732977
+62,Shahajahan Tamboli,Tamboli,58,Female,4136b,DMV1913763
+63,Shahnaz Yunnus Tamboll,Yunnasu Tamboli,54,Female,4136b,DMV1917889
+64,Mohammad Hussain Tamboli,Mohammad Tamboli,54,Male,4136b,SZH7732969
+65,Aziz Abu Tamboli,Abu Tamboli,52,Male,4136b,SZH7732936
+66,Vrishali Shankar Pavle,Shankar Pavle,41,Female,4176,DMV1889328
+67,Vijaya Shankar Pavle,Shankar Pavle,84,Female,4176a,SZH7732993
+68,Kusum Mahadev Pavle,Mahadev Pavle,78,Female,4176a,SZH7733009
+69,Vinod Shankar Pavle,Shankar Pavle,61,Male,4176a,SZH7733025
+70,Kavita Vinod Pavle,Vinod Pavle,57,Female,4176a,SZH7733033
+71,Umesh Shankar Pavle,Shankar Pavle,55,Male,4176a,SZH7733017
+72,Kusum Shivdas Pavle,Shivdas Pavle,78,Female,4177,SZH7733041
+73,Ganesh Shivdas Pavle,Shivdas Pavle,55,Male,4177,DMV1873652
+74,Vidhya Ganesh Pavle,Ganesh Pavle,50,Female,4177,DMV1873660
+75,Pramod Shivdas Pavle,Shivdas Pavle,47,Male,4177,DMV1872209
+76,Surekha Pramod Pavle,Pramod Pavle,43,Female,4177,DMV1872217
+77,Amar Pawale.,Umesh Pawale,22,Male,4177,SZH7478498
+78,Jayashri Kamlakar Kshirsagar,Kamlakar Kshirsagar,73,Female,4178,DMV1890375
+79,Nandkumar Kamlakar Kshirsagar,Kamlakar Kshirsagar,54,Male,4178,SZH7733058
+80,Vaibhav Pawale,Madhukar Pawale,25,Male,4179,SZH7478589
+81,"Kirtiben Champaklal Modi,","Champaklal Modi,",84,Female,4180,DMV1883347
+82,Dharmendrakumar Narayandas Modi.,"Narayandas Modi,",57,Male,4180,DMV1883321
+83,Kusum Vilasrao Patil.,Vilasrao Patil,76,Female,4181,SZH7733090
+84,Urmiladevi Rajaram Patil,Rajaram Patil,71,Female,4181,SZH7733066
+85,Abhijeet Rajaram Patil,Rajaram Patil,54,Male,4181,SZH7733074
+86,Pratibha Vilasrao Patil,Vilasrao Patil,54,Female,4181,SZH7733108
+87,Ranjit Rajaram Patil,Rajaram Patil,53,Male,4181,SZH7733082
+88,Pramila Vilasrao Patil,Vilasrao Patil,52,Female,4181,SZH7733116
+89,Amarjeet Rajaram Patil,Rajaram Patil,49,Male,4181,DMV1909837
+90,Sandhya Abhijit Patil,Abhijit Patil,39,Female,4181,SZH7223969
+91,AWANTI AMARJIT PATIL,AMARJIT PATIL,36,Female,4181,SZH7022353
+92,Shailendra Pandurang Vibhute,Pandurang Vibhute,52,Male,4185,DMV1872696
+93,Santosh Shridhar Vibhute,Shridhar Vibhute,47,Male,4185,DMV1888684
+94,Vandana Nandkumar Vibhute,Nandkumar Vibhute,42,Female,4185,DMV1877349
+95,Purushottam Anant Vibhute,Anant Vibhute,41,Male,4185,DMV1879501
+96,Rahul Popat Vibhute,Popat Vibhute,33,Male,4185,SZH6003180
+97,Bharat Shrirang Gayakwad,Shrirang Gayakwad,97,Male,4187,SZH7733124
+98,Sanjeevani Bharat Gayakwad,Bharat Gayakwad,52,Female,4187,SZH7733132
+99,Sunita Aroon Nikam,Aroon Nikam,70,Female,4187,SZH7733140
+100,Abhay Aroon Nikam,Aroon Nikam,61,Male,4187,DMV1916782
+101,Suman Sadashiv Swami,Sadashiv Swami,92,Female,4187,DMV1875541
+102,Sulochana Anant Vibhute,Anant Vibhute,67,Female,4188b,SZH7733157
+103,Ajay Somnath Ambare,Somnath Ambare,33,Male,4232,SZH6003156
+104,Prathmesh Pawale,Manesh Pawale,23,Male,4238,SZH7632961
+105,Rutuja Shinde,Dnyaneshwar Shinde,22,Female,4240/f,SZH8313454
+106,Sharda Nagnath Pavle,Nagnath Pavle,80,Female,4240b,DMV1875707
+107,RUSHIKESH DESHMANE,SANJAY DESHMANE,23,Male,4243,SZH7617269
+108,Kalyani Suresh Shille,Suresh Shille,61,Female,4244,SZH0072087
+109,Vinayak Ramkrushna Kshirsagar,RAMKRUSHNA KSHIRSAGAR,29,Male,4245,SZH7141336
+110,MAYUR BHART BHINGE,BHART BHINGE,40,Male,4249,SZH6952337
+111,Radika Bhinge,Mayur Bhinge,32,Female,4249,SZH6952303
+112,Priyanka Shete,Nilesh Shete,34,Female,4252,SZH8136673
+113,Maya Vishwas Thigale,Vishwas Thigale,41,Female,4254,SZH7478464
+114,SANTOSH THIGALE,BABURAO THIGANE,35,Male,4254,SZH6952329
+115,Shubhvanti Aditya Thigale,Aditya Thigale,25,Female,4254,SZH7478548
+116,Mangal Vitthal Umbare,Vitthal Umbare,26,Female,4255,SZH7478480
+117,Nilkanth Ramesh Takane,Ramesh Takane,24,Male,4259,SZH7478472
+118,Shivani Suresh Takane,Suresh Takane,23,Female,4259,SZH7478456
+119,Nikita Bhinge,Rajendra Bhinge,27,Female,4261,SZH8136970
+120,Shivani Ananat Naiknaware,Ananat Naiknaware,27,Female,4264,SZH7192446
+121,Anant Jalindar Naikanavare,Jalindar Naikanavare,39,Male,4264 ब,DMV1912880
+122,Anjali Yadav,Shrikant Yadav,37,Female,4267,SZH8136723
+123,Onkar Vishnu Karatkar,Vishnu Karatkar,26,Male,4269,SZH7168040
+124,Prashant Abhumanyu Raut,Abhumanyu Raut,45,Male,4311,SZH7223944
+125,Sharda Prashant Raut,Prashant Raut,36,Female,4311,SZH7223951
+126,Atharv Sanjay Bhinge,Sanjay Bhinge,22,Male,4315,SZH7478514
+127,Sujita Sanjay Bhinge,Sanjay Bhinge,25,Female,4315 b,SZH7478506
+128,Madhuri Dongare,Sagar Dongare,29,Female,H. No.4317,SZH8217044
+129,Sagar Rajendra Dongre,Rajendra Dongre,30,Male,H. No.4317 Navi Peth,SZH6595862
+130,Neha Dattatray Vatharkar,Dattatray Vatharkar,25,Female,4373/B,SZH7168024
+131,Rohan Jambhale,Kashinath Jambhale,24,Male,"462/2, Ghadage Baag",SZH7617228
+132,Girish Balasaheb Ligade,Balasaheb Ligade,35,Male,4179/1,SZH7223936
+133,Balasahebakashinath Ligade,Kashinath Ligade,80,Male,41791,SZH7733165
+134,Vanita Nagesh Pavle,Nagesh Pavle,42,Female,41792,DMV1898378
+135,Aruna Sudhakar Pavie,Sudhakar Pavle,75,Female,41792,DMV1898725
+136,Nagesh Sudhakar Pavle,Sudhakar Pavle,55,Male,41792,SZH7733173
+137,Mumtazbegam Abdul Razaaq Tamboll,Abdul Razaaq Tamboll,79,Female,41831,DMV1926245
+138,Jalal Abdul Razaaq Tamboll,Abdul Razaaq Tamboli,57,Male,41831,DMV1926096
+139,Aysha Jalal Tamboli,Jalal Tamboll,56,Female,41831,SZH7733207
+140,Ruksana Mahitab Tamboli,Mahitab Tamboli,53,Female,41831,SZH7733181
+141,Sugrabi Abdul Razaaq Tamboll,Abdul Razaaq Tamboli,84,Female,41832,SZH7733199
+142,Hari Digamber Vibhute,Digamber Vibhute,74,Male,41851,SZH7733215
+143,Subhadra Hari Vibhute,Hari Vibhute,69,Female,41851,SZH7733223
+144,Sadashiv Digamber Vibhute,Digamber Vibhute,58,Male,41851,SZH2027001
+145,Sharda Rajaram Vibhute,Rajaram Vibhute,63,Female,41852,SZH6324602
+146,Popat Mahadev Vibhute,Mahadev Vibhute,62,Male,41852,SZH6324610
+147,Surekha Popat Vibhute,Popat Vibhute,56,Female,41852,SZH7733231
+148,Raghunath Gangadhar Vibhute,Gangadhar Vibhute,92,Male,41853,SZH7733249
+149,Manubai Raghunath Vibhute,Raghunath Vibhute,82,Female,41853,SZH7733256
+150,Subhash Raghunath Vibhute,Raghunath Vibhute,67,Male,41853,SZH7733264
+151,Ranjana Subhash Vibhute,Sumbhash Vibhute,62,Female,41853,SZH7733272
+152,Nandkumar Raghunath Vibhute,Raghunath Vibhute,56,Male,41853,DMV1908169
+153,Bhavasahebaraghunath Vibhute,Raghunath Vibhute,52,Male,41853,DMV1896158
+154,Shridhar Audumbar Vibhute,Audumbar Vibhute,77,Male,41854,DMV1880673
+155,Anant Gangadhar Vibhute,Gangadhar Vibhute,77,Male,41854,DMV1914902
+156,Kusum Shridhar Vibhute,Shridhar Vibhute,72,Female,41854,SZH7733280
+157,Razia Begum Mohammad Hussain Tamboll,Mohammad Hussain Tamboll,73,Female,423s 36b,DMV1913797
+158,Komal Sagar Watharkar,Sagar Watharkar,30,Female,4263/2a,SZH7478563
+159,Rupall Prashant Salgar,Prashant Dattatray Salgar,28,Female,Ghar No 4424/2,SZH7556046
+160,Amir Mehtab Tambol,Mehtab tamboll,27,Male,4183/84,SZH7021322
+161,Taslim Tamboll,Shakil Tamboll,53,Female,4235/36,SZH8265126
+162,Imtiyaj Tamboli,Mhamad Tamboll,52,Male,4235/36,SZH8265084
+163,Rizwana Tamboli,Gausmahamad Tamboli,41,Female,4235/36,SZH8259384
+164,Faiaj Tamboli,Ilahi Tamboli,22,Male,4235/36,SZH8293078
+165,Alisha Tamboli,Imtiyaj Tamboli,21,Female,4235/36,SZH8265100
+166,Gururaj Chavan,Gorakh Chavan,21,Male,4402/03,SZH8293086
+167,AZHAR TAMBOLI,IMTIYAZ TAMBOLI,18,Male,4235/36 bhosale chowk,SZH8538118
+168,Al Shifa Tanvir Tamboll,Tanvir Yunnus Tamboll,19,Female,4235,SZH8578502
+169,Revati Thigale,Santosh Thigale,29,Female,0,SZH8590721
+170,TASALIM TAMBOLI,SHAKIL TAMBOLI,53,Female,4235/36,SZH8595258
+171,SHAHIN TAMBOLI,SHAHAJAN TAMBOLI,54,Female,4235/36,SZH8595316
+172,AVEJ TAMBOLI,IMTIYAJ TAMBOLI,23,Male,4235/36,SZH8595365
+173,SAMIR MEHTAB TAMBOLI,RUKSANA MAHITAB TAMBOLI,26,Male,NAVI PETH,SZH8645293
+174,RUPESH WAGHMARE,NAMDEV WAGHMARE,33,Male,407510,SZH8662611
+175,ANITA WAGHMARE,RUPESH WAGHMARE,28,Female,407510,SZH8662975
+176,TRUPTI GIRISH LIGADE,GIRISH BALASAHEB LIGADE,34,Female,4179/1,SZH8665085
+177,Pooja Rahul Chauhan,SHANTI CHAUHAN,21,Female,Annabhau Sathe Salemage,SZH8673113
+178,Rupali Mahadev Hulwan,Mahadev Hulwan,33,Female,-,SZH7119522
+179,Payal Amol Hulwan,Amol Hulwan,30,Female,-,SZH7119514
+180,Avishkar Ravsaheb Jadhav,Ravsaheb Jadhav,25,Male,-,SZH7350986
+181,Sagar Mahesh Kadam,Mahesh Kadam,29,Male,-,SZH7168115
+182,Anand Mahesh Kadam,Mahesh Kadam,28,Male,-,SZH7168065
+183,Gurudas Suresh Kurnawal,Suresh Kurnawal,38,Male,-,SZH6203624
+184,Kiran Suresh Kurnawal,Suresh Kurnawal,32,Male,-,SZH6203616
+185,AMAR KAILAS SHETE,KAILAS SHETE,31,Male,-,SZH7022486
+186,Sonal Sharad Watharkar,Sharad Watharkar,33,Female,-,SZH6203640
+187,Sheetal Subhash Watharkar,Subhash Watharkar,30,Female,-,SZH6203632
+188,BHIMA RAMCHANDRA ZENDE,RAMCHANDRA ZENDE,28,Male,-,SZH7022494
+189,Namrata Bhende,Rahul Bhende,28,Female,-,SZH7617855
+190,Prachi Bhinge.,Santosh Bhinge,24,Female,-,SZH7605264
+191,Sarojkumar Narayankumar Das,Narayankumar Das,37,Male,-,SZH7141278
+192,Kajal Pandurang Dhotre,Pandurang Dhotre,22,Female,-,SZH7478522
+193,Kiran Tulasidas Jadhav,Tulasidas Jadhav,40,Male,-,SZH2026953
+194,Ragini Jadhav,Kiran Jadhav,37,Female,-,SZH7605348
+195,DHANASHRI VISHNU KARATAKAR,VISHNU KARATAKAR,29,Female,-,SZH7023229
+196,komal karatkar,laxman karatkar,26,Female,-,SZH7618598
+197,Mainabai Shivraj more,Shivraj more,32,Female,-,SZH7022478
+198,Rohit Sangale,Bandu Sangale,23,Male,-,SZH8279424
+199,Shubham Sangale,Bandu Sangale,20,Male,-,SZH8304354
+200,Shilpa Shete,Ajit Shete,30,Female,-,SZH8136681
+201,Yash thigale,vishwas thigale,21,Male,-,SZH8154114
+202,Karan Raju Anuse,Raju Anuse,27,Male,..,SZH7192479
+203,Ashutosh Dagadu Raut,Dagadu Raut,24,Male,..,SZH7224033
+204,SHAKUNTA VITTHAL MORE,VITTHAL MORE VITTHAL MORE,82,Female,1,SZH7573801
+205,SUYASH MUCHLAMBE,NAGESH MUCHLAMBE,19,Male,PLOT NO 12 LINK ROAD,SZH8443525
+206,Bhagirathi Maharudr Javale,Maharudr Javale,94,Female,39b,SZH7733298
+207,Awadhesh Dinanath Gupta,Dinanath Gupta,37,Male,56/B,SZH2076347
+208,Mahadeo Arun Dhotre,Arun Dhotre,31,Male,A110,SZH7192453
+209,Nirmala Mahadeo Dhotre,Mahadeo Dhotre,25,Female,A110,SZH7192461
+210,Onkar Hari Gangamwar,Hari Gangamwar,22,Male,298,SZH7556558
+211,Rajendra Dattatreya Bhinge,Dattatreya Bhinge,52,Male,313,DMV1906288
+212,Ratan Kailash Shette,Kailash Shette,51,Female,334,SZH2027027
+213,Vishnavi Nikam,Digambar Nikam,24,Female,355,SZH8136988
+214,Rushikesh Nikam,Digambar Nikam,22,Male,355,SZH8138539
+215,RASIKA NARAYAN JAMDADE,NARAYAN JAMDADE,42,Female,362,SZH6952352
+216,Ambika Dhobale,Bharat Dhobale,26,Female,366,SZH8229577
+217,Renuka Dhobale,Bharat Dhobale,24,Female,366,SZH8229569
+218,Adil Subhash Limkar,Subhash Limkar,25,Male,366,SZH7223993
+219,Krishna Baloba Urade,Baloba Urade,75,Male,367 B,DMV1925809
+220,Shalan Krishna Urade,Krishna Urade,66,Female,367 B,DMV1901362
+221,Shivaji Krishna Urade,Krishna Urade,54,Male,367 B,DMV1901446
+222,Manisha Shivaji Urade,Shivaji Urade,47,Female,367 B,DMV1901354
+223,Ashwini Dhananjay Urade,Dhananjay Urade,44,Female,367 B,DMV1921949
+224,Suresh Nagappa Shile,Nagappa Shile,73,Male,424,SZH7733306
+225,Rani Appa Alankar,Appa Alankar,44,Female,425 A,DMV1914639
+226,Ashok Dattatreya Babar,Dattatreya Babar,51,Male,4170,DMV1937937
+227,Kalpana Dilip Babar,Dilip Babar,48,Female,4170,SZH7694037
+228,Neha Babar,Dilip Babar,26,Female,4170,SZH8279416
+229,Shubham Babar,Ashok Babar,25,Male,4170,SZH8279408
+230,Onkar Babar,Ashok Babar,23,Male,4170,SZH8279390
+231,Pandurang Digamber Vibhute,Digambanr Vibhute,77,Male,4175,DMV1879246
+232,Lata Pandurang Vibhute,Pandurang Vibhute,63,Female,4175,DMV1876606
+233,Ravindra Pandurang Vibhute,Pandurang Vibhute,46,Male,4175,DMV1872704
+234,Madhavi Vibhute,Santosh Vibhute,40,Female,4185,SZH7632979
+235,Anjana Savlaram Kolvale,Savlaram Kolvale,88,Female,4235b,DMV1896703
+236,Faiyaj Mhamulal Shaikh,Mhamulal Shaikh,65,Male,4237,SZH7733314
+237,Shahin Faiyaj Shaikh,Faiyaj Shaikh,62,Female,4237,SZH7733322
+238,Shauqat Mhamulal Shaikh,Mhamulal Shaikh,61,Male,4237,SZH7733330
+239,Mahananda Balasaheb Adange,Balasaheb Adange,58,Female,4238b,SZH7733363
+240,Balasahebanaganath Andage,Nagnath Andage,59,Male,4238b,SZH7733355
+241,Sindhu Rajendra Pavle,Rajendra Pavle,74,Female,4238b,SZH7733348
+242,Manesh Rajendra Pavle,Rajendra Pavle,57,Male,4238b,SZH7733371
+243,Usha Manesh Pavle,Manesh Pavle,44,Female,4238b,DMV1914258
+244,Manju Ganesh Shinde,Ganesh Shinde,39,Female,4240,DMV1898238
+245,KESHAV SHINDE,DNYANESHWAR SHINDE,20,Male,4240 F,SZH8357428
+246,Satish Balkrishna Nagmal,Satish Nagmal,72,Male,4240a,SZH6324628
+247,Ranjana Satish Nagmal,Satish Nagmal,67,Female,4240a,SZH0071837
+248,Mahadev Balkrishna Nagmal,Balkrishna Nagmal,65,Male,4240a,SZH7733389
+249,Sunda Mahadev Nagmal,Mahadev Nagmal,61,Female,4240a,SZH7733397
+250,Ansuyya Nivrutti Nagmal,Nivrutti Nagmal,93,Female,4240b,DMV1918408
+251,Bharat Nivrutti Nagmal,Nivrutti Nagmal,60,Male,4240b,SZH7733421
+252,Vijay Kumar Dagdu Pavle,Dagdu Pavle,85,Male,4240b,DMV1925361
+253,Shakuntala Dagdu Pavle,Dagdu Pavle,74,Female,4240b,SZH7733439
+254,Mahesh Nagnath Pavle,Nagnath Pavle,62,Male,4240b,SZH7733447
+255,Suhasini Mahesh Pavie,Mahesh Pavle,60,Female,4240b,DMV1896422
+256,Latika Vijay Kumar Pavle,Vijay Kumar Pavle,55,Female,4240b.,DMV1926252
+257,Manjusha Nagnath Pavie,Nagnath Pavle,47,Female,4240b,SZH7733454
+258,Tukaram Eknath Shide,Eknath Shide,84,Male,4240p,DMV1873389
+259,Ratan Tukaram Shide,Tukaram Shide,76,Female,4240p.,SZH7733405
+260,Dynaneshvar Tukaram Shide,Tukaram Shide,54,Male,4240p,SZH7733413
+261,Ganesh Tukaram Shinde,Tukaram Shinde,42,Male,4240p,DMV1877513
+262,Vandana Dynaneshvar Shinde,Dynaneshvar Shinde,41,Female,4240p,DMV1874304
+263,Appa Tayappa Kuranaval,Tayappa Kuranaval,99,Male,4241b,SZH7733462
+264,Mandakini Appa Kuranaval,Appa Kuranaval,93,Female,4241b,SZH7733470
+265,Bharat Appa Kuranaval,Appa Kuranaval,74,Male,4241b,DMV1875087
+266,Ramesh Appa Kuranaval,Appa Kuranaval,70,Male,4241b,DMV1872720
+267,Nand Kumar Appa Kuranaval,Appa Kuranaval,68,Male,4241b,SZH7733488
+268,Sharda Appa Kuranaval,Appa Kuranaval,66,Female,4241b,DMV1883651
+269,Sanjay Appa Kuranaval,Appa Kuranaval,64,Male,4241b,SZH7733504
+270,Kishor Appa Kuranaval,Appa Kuranaval,62,Male,4241b,SZH7733520
+271,Rajni Ramesh Kuranaval,Ramesh Kuranaval,62,Female,4241b,SZH7733496.
+272,Nalini Nandkumar Kuranaval,Nandkumar Kuranaval,59,Female,4241b,SZH7733546
+273,Sandhya Kishor Kuranaval,Kishor Kuranaval,55,Female,4241b,SZH7733538
+274,Sangeeta Sanjay Kuranaval,Sanjay Kuranaval,54,Female,4241b,SZH7733512
+275,Vishwanath Mahadev Takane,Mahadev Takane,84,Male,4242,DMV1887595
+276,Balkrishna Mahadev Takane,Mahadev Takane,78,Male,4242,SZH7733579
+277,Parvati Vishwanath Takane,Vishwanath Takane,74,Female,4242,SZH7733553
+278,Mahadevi Balkrishna Takane,Balkrishna Takane,72,Female,4242,SZH7733587
+279,Ramesh Vishwanath Takane,Vishwanath Takane,59,Male,4242,DMV1915461
+280,Suresh Vishwanath Takane,Vishwanath Takane,57,Male,4242,DMV1915172
+281,Manjusha Ramesh Takane,Ramesh Takane,54,Female,4242,SZH7733561
+282,Abhay Balkrushna Takane,Balkrushna Takane,37,Male,4242,SZH7168149
+283,Vikas Vishwanath Takane,Vishwanath Takane,54,Male,4242 B,DMV1878214
+284,Suvarna Vishwanath Takane,Vishwanath Takane,53,Female,4242 B,SZH7733629
+285,Dilip Laxman Deshmane,Laxman Deshmane,65,Male,4242a,SZH7733595
+286,Pritam Laxman Deshmane,Laxman Deshmane,63,Male,4242a,DMV1872589
+287,Pratibha Laxman Deshmane,Laxman Deshmane.,55,Female,4242a,SZH7733603
+288,Nagnath Laxman Deshmane,Laxman Deshmane,53,Male,4242a,SZH7733611
+289,Sujata Suresh Takane,Suresh Takane,44,Female,4242b,DMV1915164
+290,Anjall Vikas Takane,Vikas Takane,42,Female,4242b,DMV1887587
+291,Sindhu Baburao Pavle,Baburao Pavle,79,Female,4244,DMV1898386
+292,Shashikala Subhash Pavle,Subhash Pavle,57,Female,4244,DMV1898402
+293,Subhash Baburao Pavle,Baburao Pavle,56,Male,4244,DMV1898410
+294,Rahul Suresh Shilie,Suresh Shille,42,Male,4244,DMV1906627
+295,Rajaram Jagannath Kirve,Jagannath Kirve,84,Male,4245,SZH6324644
+296,Shakuntala Rajaram Kirve,Rajaram Kirve,78,Female,4245,SZH7733637
+297,Ram Krishna Dattatreya Kshirsagar,Dattatreya Kshirsagar,61,Male,4245,DMV1878701
+298,Shashikala Ram Krishna Kshirsagar,Ram Krishna Kshirsagar,57,Female,4245,DMV1878719
+299,Ankita Kshirsagar,Vinayak Kshirsagar,28,Female,4245,SZH8136996
+300,Ramchandra Gangadhar Vibhute,Gangadhar Vibhute,78,Male,4245,DMV1904275
+301,Suman Ramchandra Vibhute,Ramchandra Vibhute,71,Female,4245,SZH7733645
+302,Savita Vishwas Thigale,Vishwas Thigale,47,Female,4245b,DMV1887306
+303,Parvatibal Mallikarjun Bhinge,Mallikarjun Bhinge,101,Female,4246,DMV1903129
+304,Nirmala Dattatreya Bhinge,Dattatreya Bhinge,72,Female,4246,SZH7733678
+305,Sanjay Devidas Bhinge,Devidas Bhinge,69,Male,4246,SZH7733652
+306,Shanta Suresh Bhinge,Suresh Bhinge,68,Female,4246,DMV1903137
+307,Suresh Mallikarjun Bhinge,Mallikarjun Bhinge,58,Male,4246,DMV1911916
+308,Vanita Sarijay Bhinge,Sanjay Bhinge,57,Female,4246,SZH7733660
+309,Sunil Dattatreya Bhinge,Dattatreya Bhinge,55,Male,4246,SZH2027035
+310,Sachin Dattatreya Bhinge,Dattatreya Bhinge,54,Male,4246,DMV1883156
+311,Roopali Sunil Bhinge,Sunil Bhinge,42,Female,4246,DMV1918523
+312,Sujata Suresh Bhinge,Suresh Bhinge,40,Female,4246,DMV1903145
+313,Janki Murlidhar Katap,Murlidhar Katap,72,Female,4246,DMV1925973
+314,Shriniwas Dhananjay Borganvakar,Dhananjay Borganvakar,37,Female,4249,SZH3300183
+315,Shrikant Dhananjay Borgavkar,Dhananjay Borgavkar,47,Male,4249,DMV1874437
+316,Vasanti Anil Bhinge,Anil Bhinge,69,Female,4249a,DMV1873207
+317,Bharat Shivdas Bhinge,Shivdas Bhinge,67,Male,4249a,DMV1872373
+318,Shobha Dhananjay Borgavkar,Dhananjay Borgavkar,73,Female,4249a,SZH7733686
+319,Mahananda Bharat Bhinge,Bharat Bhinge,62,Female,4249b,DMV1873215
+320,Aroon Raghunath Gurjar,Raghunath Gurjar,79,Male,4250,DMV1885359
+321,Gurunath Aroon Gurjar,Aroon Gurjar,52,Male,4250,SZH7733694
+322,Anjali Aroon Gurjar,Aroon Gurjar,52,Female,4250,SZH7733702
+323,Godabal Laxman Alankar,Laxman Alankar,77,Female,4251,SZH7733710
+324,Appa Laxman Alankar,Laxman Alankar,52,Male,4251,SZH7733728
+325,Santosh Laxman Alankar,Laxman Alankar,49,Male,4251,DMV1879311
+326,Nilesh Nanasaheb Shette,Nanasaheb Shette,52,Male,4252,SZH3552585
+327,Ajeet Nanaso Shette,Nanaso Shette,41,Male,4252,DMV1920115
+328,Amit Somnath Javale,Somnath Javale,41,Male,4253,DMV1877091
+329,Ratnaprabha Malikarjun Thigale,Malikarjun Thigale,79,Female,4254,DMV1872670
+330,Surendra Malikarjun Thigale,Malikarjun Thigale,64,Male,4254,DMV1872415
+331,Sanjeevani Surendra Thigale,Surendra Thigale,53,Female,4254,DMV1872688
+332,Sneha Surendra Thigale,Surendra Thigale,34,Female,4254,SZH6324651
+333,Mallikarjun Atmaram Thigale,Atmaram Thigale,97,Male,4254a,DMV1872654
+334,Ratnaprabha Mallikarjun Thigale,Mallikarjun Thigale,92,Female,4254a,SZH7733736
+335,Manohar Vishnu Thigale,Vishnu Thigale,84,Male,4254a,SZH7733744
+336,Shobha Manohar Thigale,Manohar Thigale,74,Female,4254a,SZH7733751
+337,Baburao Vishnu Thigale,Vishnu Thigale,72,Male,4254b,SZH7733777
+338,Lalita Baburao Thigale,Baburao Thigale,63,Female,4254b,SZH7733785
+339,Vishwas Manohar Thigale,Manohar Thigale,54,Male,4254b,DMV1876028
+340,Vilas Manohar Thigale,Manohar Thigale,52,Male,4254b,SZH7733769
+341,Shrihari Shivappa Umbare,Shivappa Umbare,72,Male,4255,SZH7733793
+342,Dattatreya Shivappa Umbare,Shivappa Umbare,69,Male,4255,SZH6742167
+343,Vitthal Shivappa Umbare,Shivappa Umbare,66,Male,4255,SZH7733827
+344,Kamal Shrihari Umbare,Shrihari Umbare,64,Female,4255,SZH7733801
+345,Sunita Dattatreya Umbare,Dattatreya Umbare,64,Female,4255,SZH7733819
+346,Ramchandra Shivappa Umbare,Shivappa Umbare,62,Male,4255,DMV1925627
+347,Shantabai Vitthal Umbare,Vitthal Umbare,60,Female,4255,SZH7733835
+348,Annapurna Ramchandra Umbare,Ramchandra Umbare,57,Female,4255,DMV1925635
+349,Seema Anand Tendulkar,Anand Tendulkar,42,Female,4256,DMV1917483
+350,Vinay Jalvant Varvadekar,Jaivant Varvadekar,64,Male,4256,DMV2432870
+351,Suwarna Vinay Varvadekar,Vinay Varvadekar,58,Female,4256,DMV1908151
+352,Prabhakar Mahadev Tendulkar,Mahadev Tendulkar,87,Male,4256a,SZH7733843
+353,Sujata Prabhakar Tendulkar,Prabhakar Tendulkar,67,Female,4256a,SZH7736325
+354,Aparna Prabhakar Tendulkar,Prabhakar Tendulkar,57,Female,4256a,SZH7736333
+355,Anand Prabhakar Tendulkar,Prabhakar Tendulkar,57,Male,4256a,SZH7736341
+356,Manisha Prabhakar Tendulkar,Prabhakar Tendulkar,52,Female,4256a,SZH7736358
+357,Pandurang Shankar Zadabuke,Shankar Zadabuke,74,Male,4257,DMV1883552
+358,Chandrakala Zadabuke,Zadabuke,72,Female,4257,SZH7736366
+359,Rahul Pandurang Zadbuke,Pandurang Zadbuke,52,Male,4257,DMV1886035
+360,SARTHAK ZADBUKE,RAHUL ZADBUKE,19,Male,4257,SZH8387433
+361,Shakuntala Vishwanath Muchlambe,Vishwanath Muchlambe,79,Female,4260,SZH7736382
+362,Sharanappa Vishwanath Muchlambe,Vishwanath Muchlambe,62,Male,4260,SZH0072354
+363,Somnath Vishwanath Muchlambe,Vishwanath Muchiambe,59,Male,4260,SZH7736390
+364,Jagdevi Sharanappa Muchlambe,Sharanappa Muchlambe,54,Female,4260,SZH6324669
+365,Nagesh Vishwanath Muchlambe,Vishwanath Muchlambe,54,Male,4260,SZH7736408
+366,Deepall Somnath Muchlambe,Somnath Muchlambe,50,Female,4260,DMV1874122
+367,Pallavi Nagesh Muchiambe,Nagesh Muchlambe,46,Female,4260,DMV1874130
+368,Yuvraj Sharanappa Muchlambe,Sharanappa Muchlambe,31,Male,4260,SZH6003206
+369,Akansha Yuvraj Muchlambe,Yuvraj Muchlambe,30,Female,4260,SZH7478555
+370,Dhanaraj Sharnappa Muchlambe,Sharnappa Muchlambe,28,Male,4260,SZH7331705
+371,Dwarkabai Dattatreya Upalkar,Dattatreya Upalkar,92,Female,4260,SZH7736374
+372,Vaishnavi Muchiambe,Sharanappa Muchlambe,21,Female,4260/A,SZH8279432
+373,Aroon Dattatreya Upalkar,Dattatreya Upalkar,72,Male,4260a,SZH7736416
+374,Nirmala Aroon Upalkar,Aroon Upalkar,64,Female,4260a,SZH7736424
+375,Ashok Dattatreya Upalkar,Dattatreya Upalkar,54,Male,4260a,DMV1879675
+376,Kaveri Anand Upalkar,Anand Upalkar,52,Female,4260a,DMV1919257
+377,Shrimati Shette,Shette,94,Female,4260b,SZH6324677
+378,Bhausahebasidhdeshvar Shette,Siddheshwar Shette,74,Male,4260b,DMV1911650
+379,Kamal Maharudr Bhinge,Maharudr Bhinge,92,Female,4261,DMV1889765
+380,Ravindra Maharudr Bhinge,Maharudr Bhinge,72,Male,4261,DMV1878677
+381,Nirmala Ravindra Bhinge,Ravindra Bhinge,64,Female,4261,DMV1879915
+382,Rajendra Maharudr Bhinge,Maharudr Bhinge,59,Male,4261,SZH7736432
+383,Madhuri Rajendra Bhinge,Rajendra Bhinge,50,Female,4261,SZH7736440
+384,Vijay Ravindra Bhinge,Ravindra Bhinge,33,Male,4261,DMV2469534
+385,Dipti Vijay Bhinge,Vijay Bhinge,28,Female,4261,SZH7478530
+386,Shankar Sopan Vatharkar,Sopan Vatharkar,102,Male,4263,SZH7736457
+387,Laxmi Shankar Vatharkar,Shankar Vatharkar,97,Female,4263,SZH7736465
+388,Sharad Shankar Vatharkar,Shankar Vatharkar,87,Male,4263,DMV1879162
+389,Sunita Sharad Vatharkar,Sharad Vatharkar,87,Female,4263,SZH7736473
+390,Rukmini Har Vatharkar,Hari Vatharkar,72,Female,4263,SZH7736507
+391,Subhash Shankar Vatharkar,Shankar Vatharkar,64,Male,4263,SZH7736481
+392,Shobha Subhash Vatharkar,Subhash Vatharkar,59,Female,4263,SZH7736499
+393,Nilesh Hari Vatharkar,Hari Vatharkar,54,Male,4263,DMV1885896
+394,Ganesh Hari Vatharkar,Hari Vatharkar,54,Male,4263,SZH7736515
+395,Sagar Sharad Watharkar,Sharad Watharkar,38,Male,4263,SZH2027043
+396,Uma Ganesh Vatharkar,Ganesh Vatharkar,45,Female,4263a/b,DMV1900356
+397,Neeta Jalindar Naikanvare,Jalindar Naikanvare,44,Female,4264 B,SZH1004944
+398,Udhdav Sadashiv Naikanvare,Sadashiv Naikanvare,97,Male,4264b,SZH2027050
+399,Shakuntala Udhdav Naikanvare,Udhdav Naikanvare,88,Female,4264b,DMV1876945
+400,Jalindar Sadashiv Narkanvare,Sadashiv Naikanvare,77,Male,4264b,SZH7736523
+401,Mohan Sadashiv Nalkanvare,Sadashiv Naikanvare,74,Male,4264b,DMV1887843
+402,Jaymala Jalindar Naikanvare,Jalindar Nalkanvare,68,Female,4264b,DMV1876952
+403,RANJANA NAIKNAVARE,MOHAN NAIKNAVARE,67,Female,4264b,DMV1876960
+404,Vijay Udhdav Naikanvare,Udhdav Naikanvare,62,Male,4264b,DMV1883339
+405,Deepall Jalindar Naikanvare,Jalindar Naikanvare.,52,Female,4264b,DMV1876986
+406,Dhananjay Jalindar Naikanvare,Jalindar Naikanvare,48,Male,4264b.,DMV1876978
+407,Mahesh Subhash Kuranaval,Subhash Kuranaval,44,Male,4265,DMV1920289
+408,Bhimrao Santram Yadav,Santram Yadav,96,Male,4267,SZH7736564
+409,Kamal Bhimrao Yadav,Bhimrao Yadav,87,Female,4267,SZH7736572
+410,Suresh Bhimrao Yadav,Bhimrao Yadav,75,Male,4267,SZH7736580
+411,Sunil Bhimrao Yadav,Bhimrao Yadav,68,Male,4267,SZH7736606
+412,Satish Bhimrao Yadav,Bhimrao Yadav,64,Male,4267,SZH7736598
+413,Chandrakala Sunil Yadav,Sunil Yadav,62,Female,4267,SZH7736614
+414,Surekha Suresh Yadav,Suresh Yadav,62,Female,4267,SZH7736622
+415,Rohan Sunil Yadav,Sunil Yadav,31,Male,4267,SZH6003214
+416,Gauri Satish Yadav,Satish Yadav,25,Female,4267,SZH7329964
+417,DNYANESHWARI SUNIL YADAV,SUNIL YADAV,24,Female,GHAR NO 4267,SZH8482507
+418,AKSHAY ARJUN KARATAKAR,ARJUN KARATAKAR,28,Male,4269,SZH7061708
+419,Shripad Karatkar,Arjun Karatkar,23,Male,4269,SZH7478654
+420,PRASHANT ABHIMANYU RAUT,ABHIMANYU RAUT,45,Male,4311,SZH7021769
+421,Rajat Dnyaneshwar Jagalpure,Dnyaneshwar Jagalpure,29,Male,4314/ब,SZH7192487
+422,Shantabai Jangalpure,Devidas Jangalpure,80,Female,4315/b,SZH8259335
+423,Dnyaneshwar Jangalpure,Devidas Jangalpure,55,Male,4315/b,SZH8259301
+424,Rajshri Jangalpure,Dnyaneshwar Jangalpure,54,Female,4315/b,SZH8259350.
+425,Mrunali Jangalpure.,Rajat Jangalpure,24,Female,4315/b,SZH8259368
+426,Kalpana Vishwanath Giram,Vishwanath Giram,59,Female,4316,DMV1918143
+427,Pranit Kiran Hingmire,Kiran Hingmire,25,Male,4330,SZH7192495
+428,Pooja Nagesh Wagh,Negesh Wagh,23,Female,4333,SZH7478639
+429,Vishal Nagesh Wagh,Nagesh Wagh,22,Male,4333,SZH7478621
+430,Kavita Kiran Patil,Kiran Patil,25,Female,4360,SZH7478605
+431,Arati Sanjay Kale,Sanjay Kale,25,Female,4363,SZH7223985
+432,ADITI MAHESHWAR BHINGE,MAHESHWAR BHINGE,31,Female,4366,SZH6952360
+433,SEJAL BHINGE,KAUSTUBH BHINGE,26,Female,4366,SZH7605553
+434,Nilabai Metkari,Dagadu Metkari,64,Female,4372,SZH8137721
+435,Amit Laxman Vatharkar,Laxman Vatharkar,29,Male,4373,SZH7168099
+436,Yogesh Sunil Vyavhare,Sunil Vyavhare,25,Male,4375,SZH7168107
+437,Sonali Nitin Mule,Nitin Mule,24,Female,4381,SZH7224017
+438,Varsha Kavale,Someshwar Kavale,40,Female,4384 b,SZH8264079
+439,Akash Vijaykumar Kavale,Vijaykumar Kavale,26,Male,4384/B,SZH7168081
+440,Shital Londhe,Arun Londhe,23,Female,4387,SZH8259210
+441,VISHAL VISHNU PAWAR PAWAR,VISHNU GANAPAT PAWAR PAWAR,26,Male,4394,SZH7574817
+442,Balaji Umesh Kadam,Umesh Kadam,26,Male,4408,SZH7168073
+443,Vijay Nandkumar Wagh,Nandkumar Wagh,35,Male,4411,DMV2477875
+444,Ajinkya Nandkumar Wagh,Nandkumar Wagh,33,Male,4411,SZH6324560
+445,Nilesh Nandkumar Wagh,Nandkumar Wagh,40,Male,4413,SZH2026946
+446,Sourabh Rajesh Waghule,Rajesh Waghule,22,Male,4413,SZH7557242
+447,AKSHAY ARUN RAUT,ARUN RAUT,28,Male,4414,SZH7022502
+448,Sonali Jadhav,Akash Jadhav,24,Female,4421 A,SZH8229544
+449,Sujata Jadhav,Prakash Jadhav,21,Female,4421 A,SZH8229536
+450,Rahul Jadhav,Akash Jadhav,21,Male,4421 A,SZH8229551
+451,Vijay Baibhim Kolekar,Balbhim Kolekar,30,Male,4665,SZH7168123
+452,Savita Vijay Kolekar,Vijay Kolekar,28,Female,4665,SZH7168131
+453,Subhash Revansidhd Kuranaval,Revansidhd Kuranaval,74,Male,4265a1,SZH0072504
+454,Shobha Subhash Kuranaval,Subhash Kuranamal,67,Female,4265a1,SZH7736531
+455,Suresh Revansidhd Kuranaval,Revansidhd Kuranaval,67,Male,4265a1,SZH7736549.
+456,Sunanda Suresh Kuranaval,Suresh Kuranaval,62,Female,4265a1,SZH7736556
+457,SATYAVAN TUKARAM GHAGARE,TUKARAM GHAGARE,54,Male,4292/b/2,SZH6951313
+458,VANITA SATYAVAN GHAGARE,SATYAVAN GHAGARE,51,Female,4292/b/2,SZH6951354
+459,MAYURI SATYAVAN GHAGARE,SATYAVAN GHAGARE,34,Female,4292/b/2,SZH6951339
+460,YOGESH SATYAVAN GHAGARE,SATYAVAN GHAGARE,29,Male,4292/B/2,SZH6951347
+461,Priti Savale,Amar Savale,25,Female,4309/2,SZH8293037
+462,Nandini Wagh,Nagesh Wagh,20,Female,4411-a-1,SZH8270472
+463,Shailaja Abhijit Wagh,Abhijit Wagh,27,Female,4411/A2,SZH7223977
+464,Prashant Dattatrau Salgar,Dattatrau Salgar,28,Male,4424 K/2,SZH6655906
+465,Komal Dattatray Salgar,Dattatray Salgar,26,Female,4424 K/2,SZH7224041
+466,SHABANA IMTEJ TAMBOLI,IMTEJ TAMBOLI,41,Fermale,4235/36,SZH7021595
+467,Pruthaviraj Sambhaji Chavan,Sambhaji Chavan,26,Male,4402/03,SZH7224025
+468,DNYANESHWARI SUNIL YADAV,ROHAN YADAV,23,Female,GHAR NO 4267,SZH8519241
+469,Govind Jojare,Nagesh Jojare,22,Male,414,SZH8533226
+470,Amruta Pardeshi,Dilip Pardeshi,18,Female,397,SZH8533358
+471,Vaishnavi Vilas Thigale,Vilas Manohar Thigale,20,Female,house no 42548,SZH8578494
+472,Maull Deepak Favadae,Deepak Dnyaneshwar Favadae,21,Male,1,SZH8590697
+473,VARSHA SOMNATH CHAVHAN,SOMNATH CHAVHAN,28,Female,-,SZH7022635
+474,SHRIHARI DNYANESHWAR DHAT,DNYANESHWAR DHAT,39,Male,-,SZH7022718
+475,Nilesh Rajendra Dongre,Rajendra Dongre,31,Male,-,SZH3539855
+476,Vidya Gharpure,Rushikesh Gharpure,35,Female,-,SZH7022775
+477,Rushikesh Gharpure,Bajrang Gharpure,35,Male,-,SZH7022783
+478,anita namdev giray,namdev giray,37,Female,-,SZH6952386
+479,SHRUTI UMESHGIR GOSAVI,UMESHGIR GOSAVI,32,Female,-,SZH7022767
+480,ABHINIVESH UDAYGIR GOSAVI,UDAYGIR GOSAVI,29,Male,-,SZH7022759
+481,Nagesh Vitthal Kalagate,Vitthal Kalagate,37,Male,-,SZH7141351
+482,Pallavi Nagesh Kalagate,Nagesh Kalagate,35,Female,-,SZH7141369
+483,Anup Chandrakant Kamble,Chandrakant Kamble,30,Male,-,SZH6203814
+484,Vaibhav Arjun Karatkar,Arjun Karatkar,30,Male,-,SZH6203806
+485,SHITAL CHETAN KENDALE,CHETAN KENDALE,31,Female,-,SZH7022791
+486,SHRUTIKA RAVISHANKAR KHATAVKAR,RAVISHANKAR KHATAVKAR,28,Female,-,SZH7022650
+487,SWARANJALI KUMAR KORE,KUMAR KORE,40,Female,-,SZH7022734
+488,Surekha Shivshankar Ligade,Shivshankar Ligade,62,Male,-,SZH7119555
+489,SOHAM SANJAY LINGE,SANJAY LINGE,27,Male,-,SZH7022643
+490,Arun Nagnath Londhe,Nagnath Londhe,29,Male,-,SZH6595870
+491,Aakash Kiran Morgaonkar,Kiran Morgaonkar,30,Male,-,SZH6595888
+492,AMOL KALIDAS NAGNE,KALIDAS NAGNE,31,Male,-,SZH6952378
+493,Puja Amol Padvale,Amol Padvale,30,Female,-,SZH7141344
+494,KIRTI AJAY PARDESHI,AJAY PARDESHI,35,Female,-,SZH7022742
+495,shobha shashikant patil,shashikant patil,46,Female,-,SZH6952444
+496,Vaibhav Uttam Pawar,Uttam Pawar,30,Male,-,SZH6203939
+497,SHUBHANGI RANJIT SAVANT,RANJIT SAVANT,31,Female,-,SZH7022684
+498,POOJA RAJESH SAVANT,RAJESH SAVANT,28,Female,-,SZH7022668
+499,PRASHANT BABAN SHINDE,BABAN SHINDE,30,Male,-,SZH6952394
+500,VANITA GANESH SUKARE,GANESH SUKARE,28,Female,-,SZH7022676
+501,SHABANA RAFIK TAMBOLI,RAFIK TAMBOLI,41,Female,-,SZH6952428
+502,Ganesh Damodar Tendulkar,Damodar Tendulkar,53,Male,-,SZH7119530
+503,REENA ROHIT ULAGADDE,ROHIT ULAGADDE,36,Female,-,SZH7022726
+504,SWAPNALI SANJAY VIBHUTE,SANJAY VIBHUTE,29,Female,-,SZH7022692
+505,AKSHAY SANJAY VIBHUTE,SANJAY VIBHUTE,28,Male,-,SZH7022700
+506,SUHAS SANJAY VYAVARE,SANJAY VYAVARE,28,Male,-,SZH6952402
+507,VISHWAJIT VIJAY VYAVHARE,VIJAY VYAVHARE,27,Male,-,SZH7022809
+508,manisha dhananjay bhende,dhananjay bhende,28,Female,-,SZH7022593
+509,bharati vivek bhinge,vivek bhinge,31,Female,-,SZH7022551
+510,Shital Chavan,Ganesh,27,Female,-,SZH7642796
+511,Mayuri Subhash Dhotre,Subhash Dhotre,26,Female,-,SZH7192511
+512,yogita yogesh gore,yogesh gore,30,Female,-,SZH7022569
+513,rachana nandakumar karajagi,nandakumar karajagi,28,Female,-,SZH7022528
+514,Jyoti Ram Karatkar,Ram Karatkar,29,Female,-,SZH7022544
+515,Rupali Ganesh Lavand,Ganesh Lavand,31,Female,-,SZH7022536
+516,somanath dattatray masal,dattatray masal,28,Male,-,SZH7022577
+517,shilpa hanumant masal,hanumant masal,27,Female,-,SZH7022585
+518,sagar bhagavat metakari,bhagavat metakari,30,Male,-,SZH7022510
+519,KANCHAN NAVANATH METAKARI,NAVANATH METKARI,27,Female,-,SZH7022627
+520,Nanda Patarkar,nava Patarkar,53,Female,-,SZH7610728
+521,Anand Patarkar,Vinayak Patarkar,23,Male,-,SZH8262669
+522,swati shidhdeshwar shikke,shidhdeshwar shikke,32,Female,-,SZH7022601
+523,Kiran Gopal Takane,Gopal Takane,24,Male,-,SZH7434822
+524,Javed Shamshuddin Tamboll,Shamshuddin Tamboll,52,Male,-,SZH6326664
+525,Parvin Javed Tamboll,Javed Tamboli,50,Female,-,DMV1906536
+526,chandrakant SHIVAJI vyavahare,SHIVAJI VYAVAHARE,33,Female,-,SZH7022619
+527,Suraj Patil,Shashikant Patil,27,Male,Anil Nagar,SZH8429680
+528,VISHAL Shivaji Sutar,Shivaji Sutar,31,Male,DALE GALLI,SZH7555915
+529,Amol Shivaji Chavan,Shivaji Chavan,35,Male,A 43,SZH6655997
+530,Archana Samadhan Chavan.,Samadhan Chavan,34,Female,A 43,SZH6656029
+531,Pradeep Vilas Salunkhe,Vilas Salunkhe,31,Male,65,SZH6595896
+532,Firoj Badesab Mulani,Badesab Mulani,25,Male,A69,SZH7331713
+533,Manjusha Vibhute,Mahesh Vibhute,39,Female,253,SZH6324685
+534,Vaibhav Katakamavar,Vijay Katakamavar,35,Male,327 B,SZH2900637
+535,Bharat Pandurang Nikam,Pandurang Nikam,23,Male,355,SZH7387996
+536,Mansi Pankaj Urade,Pankaj Urade,42,Female,367,SZH2028108
+537,Nagesh Jaidev Rayachure,Jaidev Rayachure,39,Male,413,DMV1909373
+538,Girish Mukund Kaulavar,Mukund Kaulavar,33,Male,321/3,SZH6742175
+539,Bharti Sunil Swami,Sunil Swami,52,Female,4163,DMV1881820
+540,Dilip Dattatreya Babar,Dattatreya Babar,54,Male,4170,DMV1937168
+541,Amruta Raju Parvat,Raju Parvat,24,Female,4231,SZH7556418
+542,Jyoti Shailesh Deshmane,Shailesh Deshmane,42,Female,4243,SZH6003222
+543,Trimbak Jagannath Bhinge,Jagannath Bhinge,97,Male,4247,DMV1874049
+544,Poonam Prabhakar Zadbuke,Prabhakar Zadbuke,62,Female,4259,DMV1918531
+545,Sudhir Bhimrao Yadav,Bhimrao Yadav,62,Male,4267,SZH7736630
+546,Suwarna Sudhir Yadav,Sudhir Yadav,57,Female,4267,SZH7736648
+547,Sujata Satish Yadav,Satish Yadav,57,Female,4267,SZH7736655
+548,Shrikant Suresh Yadav,Suresh Yadav,43,Male,4267,SZH2027126
+549,Dynaneshvar Audumbar Karatakar,Audumbar Karatakar,72,Male,4268,SZH6324701
+550,Machhindra Balkrishna Karatakar,Balkrishna Karatakar,72,Male,4268,SZH7736671
+551,Vasanti Dynaneshvar Karatakar,Dynaneshvar Karatakar,68,Female,4268,SZH7736663
+552,Shashikala Machhindra Karatakar,Machhindra Karatakar,67,Female,4268,SZH7736689
+553,Sanjay Audumbar Karatakar,Dynaneshvar Karatakar,64,Male,4268,DMV1890292
+554,Sangeeta Sanjay Karatakar,Sanjay Karatakar,57,Female,4268,DMV1890219
+555,Rajendra Vitthal Karatakar,Vithal Karatakar,57,Male,4268,DMV1911874
+556,Ram Machhindra Karatakar,Machhindra Karatakar,42,Male,4268,DMV1872043
+557,Laxman Machhindra Karatakar,Machhindra Karatakar,41,Male,4268,DMV1871573
+558,Gitanjali Karatkar,Sidharth Karatkar,27,Female,4268,SZH8315376
+559,Kalavati Dattatreya Karatakar,Dattatreya Karatakar,97,Female,4269,SZH0072702
+560,Parvati Janardhan Karatakar,Janardhan Karatakar,92,Female,4269,DMV1893817
+561,Vilas Dattatreya Karatakar,Dattatreya Karatakar,72,Male,4269,SZH0072710
+562,Vishnu Janardhan Karatakar,Janardhan Karatakar,67,Male,4269,DMV1890144
+563,Vijaya Vilas Karatakar,Vilas Karatakar,67,Female,4269,SZH7736705
+564,Arjun Janardhan Karatakar,Janardhan Karatakar,64,Male,4269,SZH7736713
+565,Sunanda Vishnu Karatakar,Vishnu Karatakar,62,Female,4269,DMV1891803
+566,Geeta Arjun Karatakar,Arjun Karatakar,52,Female,4269,SZH7736721
+567,Sheetal Vishnu Karatakar,Vishnu Karatakar,35,Female,4269,SZH6324719
+568,PRIYANKA SHARAD KARATKAR,SHARAD KARATKAR,28,Female,4269,SZH6956148
+569,Somnath Trimbak Bhinge,Trimbak Bhinge.,70,Male,4275,DMV1873926
+570,Kanchan Somnath Bhinge,Somnath Bhinge,70,Female,4275,DMV1874106
+571,Santosh Trimbak Bhinge,Trimbak Bhinge,57,Male,4275,DMV1874411
+572,Manisha Santosh Bhinge,Santosh Bhinge,54,Female,4275,DMV1874064
+573,Pallavi Somnath Bhinge,Somnath Bhinge,42,Female,4275,DMV1874007
+574,Madhura Manoj Pawale,Manoj Pawale,34,Female,4305,SZH6655989
+575,Laxmi Bai Narayan Gujare,Narayan Gujare,98,Female,4309,SZH7736739
+576,Rameshwar Narayan Gujare,Narayan Gujare,82,Male,4309,SZH6324727
+577,Siddheshwar Narayan Gujare,Narayan Gujare,68,Male,4309,SZH7736747
+578,Asha Siddheshwar Gujare,Siddheshwar Gujare,59,Female,4309,SZH7736754
+579,Aruna Siddheshwar Gujare,Siddheshwar Gujare,40,Female,4309,SZH3550985
+580,Shivraj Siddheshwar Gujare,Siddheshwar Gujare,36,Male,4309,SZH2710010
+581,Nila Dattatreya Karatakar,Dattatreya Karatakar,69,Female,4309,SZH7736697
+582,Sharad Vilas Karatakar,Vilas Karatakar,42,Male,4309,DMV1873140
+583,Mahadevi Savle,Savle,64,Female,4309,DMV1873462
+584,Amar Ramesh Savle,Ramesh Savie,35,Male,4309,DMV2474849
+585,Govind Ganpat Menkudale,Ganpat Menkudale,77,Male,4310,SZH7736762
+586,Mangal Govind Menkudale,Govind Menkudale,74,Female,4310,SZH7736770
+587,Dhananjay Ganpat Menkudale,Ganpat Menkudale,62,Male,4310,DMV1902972
+588,Anuradha Dhananjay Menkudale,Dhananjay Menkudale,57,Female,4310,DMV1902949
+589,Sushila Ramchandra Visapure,Ramchandra Visapure,82,Female,4310,DMV1899558
+590,Prakash Dattatreya Kamble,Dattatreya Kamble,72,Male,4311,SZH7736788
+591,Chandrakant Dattatreya Kamble,Dattatreya Kamble,68,Male,4311,SZH7736804
+592,Rekha Prakash Kamble,Prakash Kamble,64,Female,4311,SZH7736796
+593,Ratan Chandrakant Kamble,Chandrakant Kamble,62,Female,4311,SZH7736812
+594,Anand Prakash Kamble,Prakash Kamble,44,Male,4311,SZH6324735
+595,Amar Prakash Kamble,Prakash Kamble,42,Male,4311,DMV1890193
+596,Ajay Prakash Kamble,Prakash Kamble,41,Male,4311,DMV1885854
+597,Vatsala Vasant Menkudale,Vasant Menkudale,84,Female,4311,SZH7736820
+598,Anil Vasant Menkudale,Vasant Menkudale,62,Male,4311,SZH7736838
+599,Somnath Vasant Menkudale,Anil Menkudale,58,Male,4311,SZH7736846
+600,Ujwala Anil Menkudale,Anil Menkudale,55,Female,4311,SZH6324743
+601,Ratnamala Bhimshankar Kavle,Bhimshankar Kavle,84,Female,4312,DMV1876663
+602,Vijay Kumar Bhimshankar Kavle,Bhimshankar Kavle,62,Male,4312,SZH0072889
+603,Vanita Vijay Kumar Kavle,Vijay Kumar Kavle,58,Female,4312,SZH7736879
+604,Dhananjay Bhimshankar Kavie,Bhimshankar Kavle,57,Male,4312,DMV1896620
+605,Someshwar Bhimshankar Kavle,Bhimshankar Kavle,55,Male,4312,DMV1912385
+606,Mahananda Kawale,Dhananjay Kawale,42,Female,4312,DMV1879840
+607,Prema Ramchandra Rupalag,Ramchandra Rupalag,89,Female,4312,DMV1888213
+608,Anil Ramchandra Rupalag,Ramchandra Rupalag,74,Male,4312,DMV1888197
+609,Anita Anil Rupalag,Anil Rupalag,70,Female,4312,DMV1888205
+610,Bharat Motiram Zadbuke,Motiram Zadbuke,74,Male,4312,SZH7736853
+611,Meerabai Bharat Zadbuke,Bharat Zadbuke,67,Female,4312,SZH7736861
+612,Jayashri Bharat Zadbuke,Bharat Zadbuke,39,Female,4312,SZH6324750
+613,Amrita Jaidev Rayachure,Jaidev Rayachure,40,Female,4313,DMV1871847
+614,Prakash Bhimrao Kumbhare,Bhimrao Kumbhare,82,Male,4314,DMV1881259
+615,Sushila Prakash Kumbhare,Prakash Kumbhare,72,Female,4314,DMV1878651
+616,Atul Prakash Kumbhare,Prakash Kumbhare,54,Male,4314,DMV1878818
+617,Ashok Prakash Kumbhare,Prakash Kumbhare,47,Male,4314,DMV1874650
+618,Uma Ashok Kumbhare,Ashok Kumbhare,42,Female,4314,DMV1878644
+619,Popat Gowardhan Kambire,Gowardhan Kambire,74,Male,4315,SZH7736887
+620,Vidhya Popat Kambire,Popat Kambire,68,Female,4315,SZH7736895
+621,Sidhdenshvar Muralidhar Kambire,Muralidhar Kambire,54,Male,4315,SZH7645732
+622,Kaveriba Basveshvar Dombe,Basveshvar Dombe,89,Female,4316,SZH7645781
+623,Baburao Sadashiv Dombe,Sadashiv Dombe,74,Male,4316,SZH7645740
+624,Somnath Sadashiv Dombe,Sadashiv Dombe,68,Male,4316,SZH7645765
+625,Narendra Basveshvar Dombe,Basveshvar Dombe,65,Male,4276/1/2/3/AASHIRWAD bunglow,DMV1917665
+626,Rupali Baburao Dombe,Baburao Dombe,67,Female,4316,SZH7645757
+627,Jayashri Somnath Dombe,Somnath Dombe,64,Female,4316,SZH7645773
+628,Rajendra Basveshvar Dombe,Basveshvar Dombe,64,Male,4316,SZH2027134
+629,Narendra Dombe,Narendra Dombe,62,Female,4316,DMV1921246
+630,Ratna Rajendra Dombe,Rajendra Dombe,58,Female,4316,SZH2027142
+631,Kusumbal Shankar Rao Dongre,Shankar Rao Dongre,89,Female,4317,SZH3301496
+632,Sunita Santosh Kumar Dongre,Santosh Kumar Dongre,41,Female,4317,DMV1884964
+633,Rajendra Shankar Rao Dongre,Shankar Rao Dongre,67,Male,4317a,DMV1884998
+634,Pradeep Kumar Shankar Rao Dongre,Shankar Rao Dongre,64,Male,4317a,DMV1883172
+635,Santoshakumar Shankar Rao Dongre,Shankar Rao Dongre,62,Male,4317a,SZH7645799
+636,Manisha Rajendra Dongre,Rajendra Dongre,57,Female,4317a,DMV1884980
+637,Rachna Pradeep Kumar Dongre,Pradipakumar Dongre,54,Female,4317a,DMV1884956
+638,Vishwanath Rajaram Nagane,Rajaram Nagane,57,Male,4317b,SZH7645807
+639,Surekha Kashinath Nagane,Kashinath Nagane,54,Female,4317b,SZH7645815
+640,Manjusha Nandkumar Katap,Nandkumar Katap,37,Female,4318,SZH2710044
+641,Radhika Nandkumar Katap,Nandkumar Katap,34,Female,4318,SZH2710036
+642,Basavraj Sunil Katap,Sunil Katap,33,Male,4318,SZH2710028
+643,Nandkishore Sadashiv Swami,Sadashiv Swami,67,Male,4318,DMV1875699
+644,Madhuri Nandkishore Swami,Nandkishore Swami,57,Female,4318,DMV1875533
+645,Sunil Sadashiv Swami,Sadashiv Swami,57,Male,4318,DMV1881812
+646,Vishvajeet Sunil Swami,Sunil Swami,31,Male,4318,SZH6003248
+647,Monik Anant Katap,Anant Katap,26,Female,4322,SZH7390453
+648,Laxmi Navnath Sherafalakar,Navnath Sherafalakar,34,Female,4326,SZH6003255
+649,Rohan Tendulkar,Ganesh Tendulkar,21,Male,4364,SZH8205833
+650,Swapnil Someshwar Mahimkar,Someshwar Mahimkar,33,Male,4368,SZH2710069
+651,Jayashri Metkari,Audumbar Metkari,39,Female,4372,SZH2028090
+652,Deepali Chandrakant Metkari,Chandrakant Metkari,33,Female,4372,SZH6003230
+653,Rohit Rajendragir Gosav,Rajendragir Gosavi,32,Male,4373,SZH2710077
+654,Harshad Dattatray Watharkar,Dattatray Watharkar,31,Male,4373,SZH6656078
+655,Padmasena Dhananjayagir Gosavi,Dhananjayagir Gosavi,83,Female,4374,SZH2710085
+656,Udayagir Dhananjayagir Gosavi,Dhananjayagir Gosavi,65,Male,4374,SZH6324768
+657,Urmila Udayagir Gosavi,Udayagir Gosavi,63,Female,4374,SZH2710093
+658,Sarika Santosh Bhinge,Santosh Bhinge,33,Female,4376,SZH3539863
+659,Dhananjay Ashok Bhinge,Ashok Bhinge,32,Male,4376,SZH2710119
+660,Appasaheb Ashok Bhinge.,Ashok Bhinge,32,Male,4376,SZH2710127
+661,Kapil Annasaheb Bhinge,Annasaheb Bhinge,32,Male,4376,SZH2710135
+662,Sangeeta Arvind Mithari,Arvind Mithari,44,Female,4376,SZH2710101
+663,Manisha Mahesh Mhetre,Mahesh Mhetre,36,Female,4382,SZH2710150
+664,Varsha Someshwar Kavle,Someshwar Kavle,40,Female,4384,SZH3539871
+665,Bhimshankar Gurusidhdappa Kavle,Gurusidhdappa Kavle,92,Male,4384b,DMV1876655
+666,Pranita Kiran Ghadge,Kiran Ghadge,33,Female,4386b,SZH2902773
+667,VAIBHAV BHAGVAN LONDHE,BHAGVAN LONDHE,25,Male,HO.NO 4387,SZH7192503
+668,Anita Kumbhar,Anil Kumbhar,40,Female,4398,SZH6324776
+669,Akshay Pradip Satarkar,Pradip Satarkar,23,Male,4398,SZH7388028
+670,Manoj Vaman Patil,Vaman Patil,36,Male,4399,SZH6656060
+671,Kiran Rajkumar Mane,Rajkumar Mane,30,Male,4407,SZH6656037
+672,Rahul Rangnath Lavand,Rangnath Lavand,34,Male,4411,SZH2710168
+673,Komal Umesh Sukare,Umesh Sukare,27,Female,4411,SZH7224058
+674,Gulzar Ismall Tamboli,Ismail Tamboll.,32,Male,4412/b,SZH2028116
+675,Arun Mahadev Raut,Mahadev Raut,73,Male,4414,DMV1914738
+676,Nikita Audumbar Raut,Audumbar Raut,25,Female,4414,SZH7224066
+677,Prasad Uttan Hucche Gavall,Uttam,33,Male,4418,SZH6324784
+678,Mahesh Prakash Jadhav,Prakash Jadhav,26,Male,4421अ,SZH7192537
+679,Chetan Balbhim Kolekar,Balbhim Kolekar,35,Male,4665,SZH6324800
+680,Ketan Balbhim Kolekar,Balbhim Kolekar,32,Male,gat 450/2,SZH6324818
+681,Laxman Krishnaji Deshmane,Krishnaji Deshmane,89,Male,42431,DMV1909167
+682,Sanjay Laxman Deshmane,Laxman Deshmane,58,Male,42431,DMV1925346
+683,Shailesh Laxman Deshmane,Laxman Deshmane,54,Male,42431,DMV1914530
+684,Kavita Sanjay Deshmane,Sanjay Deshmane,51,Female,42431,DMV1925189
+685,Kirti Prakash Pawar,Prakash Pawar,32,Female,4243/2,SZH2710002
+686,Uttam Govind Pawar,Govind Pawar,79,Male,42432,DMV1892728
+687,Prakash Govind Pawar,Govind Pawar,72,Male,42432,SZH2027159
+688,Sujata Uttam Pawar,Uttam Pawar,69,Female,42432,DMV1894724
+689,Rajshri Prakash Pawar,Prakash Pawar,58,Female,42432,SZH2027167
+690,Pushpa Nanasaheb Shette,Nanasaheb Shette,88,Female,42521,DMV1918556
+691,Bharat Dattatreya Shette,Dattatreya Shette,85,Male,42521,SZH7645823
+692,Chhaya Aroon Shette,Aroon Shette,63,Female,42521,DMV1879907
+693,Jagannath Zadabuke,Zadabuke,92,Female,42574a,DMV1876721
+694,Shaila Jagannath Zadabuke,Jagannath Zadabuke,59,Female,42574a,DMV1906890
+695,Naina Audumbar Zadabuke.,Audumbar Zadabuke,57,Female,42574a,DMV1876127
+696,Prabhakar Jagannath Zadbuke,Jagannath Zadbuke,72,Male,42574b,SZH0073049
+697,Moin Javed Tamboli,Javed Tamboll,23,Male,4373/b/2,SZH7390446
+698,Mohini Pandurang More,Pandurang More,34,Female,4382/b2,SZH2710143
+699,Tanaya Wagh,Nagesh Wagh,21,Female,4411/a-1,SZH8270787
+700,Santosh Vasekar,Savata Vasekar,33,Male,4422/1,SZH6324792
+701,Kavita Shivaji,Shivaji,45,Female,4423/1,SZH7192529
+702,Ruhi Ganesh Tendulkar,Ganesh Damodar Tendulkar,18,Female,H.No. 4364,SZH8590812
+703,Shila Narendrakumar Dombe,Narendrakumar Dombe,61,Female,4276/1/2/3 Aashirwad bunglow,SZH8646283
+704,SIMRAN FIROJ MULANI MULANI,FIROJ MULANI MULANI,20,Female,plot No 126 1 B,SZH8661951
+705,SIMRAN MULANI,FIROJ MULANI,20,Female,126/1B,SZH8663684
+706,Anuradha Sambhaji Chavan,Sambhaji Chavan,30,Female,-,SZH6203947
+707,DATTA JALINDAR DHOTRE,JALINDAR DHOTRE,33,Male,-,SZH6952642
+708,Nitin Raghunath Gaikwad,Raghunath Gaikwad,40,Male,-,SZH6203905
+709,Nilesh Balwant Gore,Balwant Gore,34,Male,-,SZH2027639
+710,PRASHANT UTTAMRAV HUCHHE,UTTAMRAV HUCHHE,30,Male,-,SZH6952659
+711,Deepak Shankar Kale,Shankar Kale,50,Male,-,SZH6325534
+712,Radha Deepak Kale,Deepak Kale,45,Female,-,SZH6325542
+713,omkar pandurang khoje,pandurang khoje,24,Male,-,SZH7385792
+714,Priyanka Bharat Kore,Bharat Kore,30,Female,-,SZH6203871
+715,LAXMI RAHUL LAVAND,RAHUL LAVAND,28,Female,-,SZH6790851
+716,AADITYA ANIL LOKHANDE,ANIL LOKHANDE,29,Male,-,SZH6790877
+717,Rekha Laxman Metkari,Laxman Metkari,26,Female,-,SZH7351067
+718,Kiran Somnath Patil,Somnath Patil,34,Male,-,DMV2475010
+719,Atish Prakash Raut,Prakash Raut,37,Male,-,SZH2027613
+720,Sagar Prakash Raut,Prakash Raut,34,Male,-,SZH2027621
+721,SIMA ATISH RAUT,ATISH RAUT,30,Female,-,SZH6790844
+722,MANOJ GOPICHAND RAUT,GOPICHAND RAUT,29,Male,-,SZH6790828
+723,Chaitali Chandrakant Salunkhe,Chandrakant Salunkhe,32,Female,-,SZH6203889
+724,SHITAL MADHUKAR SHINDE,MADHUKAR DWVAKATE,31,Female,-,SZH7023039
+725,SHIVKUMAR THIGALE,- THIGALE,38,Male,-,SZH6952634
+726,VIDYA PADMAKESH URADE,PADMAKESH URADE,39,Female,-,SZH6790869
+727,DIPAK SUVARNA WAGH,SUVARNA WAGH,34,Male,-,SZH6790836
+728,Durgesh Ankush Wagh,Ankush Wagh,32,Male,-,SZH6203863
+729,Jayashri Somnath Zinjurte,Somnath Zinjurte,42,Female,-,SZH6325559
+730,Vitthal Bhujbal,Dilip Bhujbal,34,Male,-,SZH8137499
+731,Ganga Hulwan,Vishnu Hulwan,33,Female,-,SZH7593536
+732,kavita shivaji shinde,shivaji shinde,40,Female,-,SZH7023005
+733,ROHAR GANESH WAGH,GANESH WAGH,30,Male,-,SZH7023021
+734,Pooja Wagh,Durgesh Wagh,24,Female,-,SZH8258931
+735,Ashok Bhima Bhendegavali,Bhima Bhendegavali,55,Male,Dale G Zo,DMV1914068
+736,Shanta Ashok Bhendegavall,Ashok Bhendegavali,47,Female,Dale G Zo,DMV1914050
+737,Irfan Bashir Shaikh,Bashir Shaikh,30,Male,52,SZH6656086
+738,Neelofar Daud Pathan,Daud Pathan,38,Female,A 69,SZH3540028
+739,Rani Sachin Gaikwad,Sachin Gaikwad,38,Female,131,SZH7192669
+740,Sachin Raghunath Gaikwad,Raghunath Gaikwad,37,Male,131,SZH6203897
+741,SUNIL AMBADAS INDAPURKAR,PUSHPA AMBADAS INDAPURKAR,34,Male,147,SZH8398463
+742,RANI SUNIL INDAPURKAR,PUSHPA AMBADAS INDAPURKAR,24,Female,147,SZH8398471
+743,Parubai Shankar Mali,Shankar Mali,89,Female,M 280,DMV1900042
+744,Prakash Shankar Mali,Shankar Mall,69,Male,M 280,DMV1899970
+745,Laxmi Bal Prakash Mali,Prakash Mall,59,Female,M 280,DMV1900000
+746,Vitthal Shankar Mali,Shankar Mali,59,Male,M 280,DMV1901107
+747,Lata Vitthal Mall,Vitthal Mali,57,Female,M 280,DMV1900018
+748,Gopichand Shankar Mali,Shankar Mali,55,Male,M 280,DMV1903681
+749,Sindhu Gopichand Raut,Gopichand Mali,49,Female,M 280,DMV1900026
+750,Govind Namdev Hulvan,Namdev Hulvan,54,Male,334,SZH2027449
+751,Satyabhama Vasudev Hulvan,Vasudev Hulvan,38,Female,334,SZH6325278
+752,Swati Vishnu Hulvan,Vishnu Hulvan,37,Female,334,SZH6325286
+753,Vishnu Sopan Hulvan,Sopan Hulvan,37,Male,334,SZH6325294
+754,Shraikant Pandurang Hulvan,Pandurang Hulvan,33,Male,334,SZH6325302
+755,Suraj Sanjay Vyavahare,Sanjay Raghunath Vyavahare,25,Male,342A,SZH7556277
+756,SHUBHAM SANJAY MANE,SANJAY MANE,25,Male,729,SZH7385909
+757,Alka Ashok Babar,Ashok Babar,47,Female,4170,DMV1938174
+758,Prerna Jayantagir Gosavi,Jayantagir Gosavi,35,Female,4373,SZH2027464
+759,Harshal Jayantagir Gosavi,Jayantagir Gosavi,34,Male,4373,SZH6325310
+760,Trupti Rajendra Jadhav,Rajendra Jadhav,33,Female,4383\b,SZH2027472
+761,Nitin Digambar Sagare,Digambar Sagare,42,Male,4396,SZH7192644
+762,VIKI SAGARE,VINAYAK SAGARE,20,Male,H NO 4396,SZH8426066
+763,Kishor Dilip Patil,Dilip Patil,35,Male,4399,SZH6325328
+764,Sunanda Masal,Dattatraya Masal,54,Female,4400,DMV1887850
+765,Godavari Sukhdev Mashal,Sukhdev Mashal,89,Female,4400,SZH7645831
+766,Gangadhar Sukhdev Mashal,Sukhdev Mashal,69,Male,4400,DMV1886738
+767,Bhimrao Sukhdev Mashal,Sukhdev Mashal,67,Male,4400,SZH0074930
+768,Rukmini Bhimrao Mashal,Bhimrao Mashal,64,Female,4400,SZH7645849
+769,Laxmi Gangadhar Mashal,Gangadhar Mashal,64,Female,4400,DMV1886647
+770,Dattatreya Sukhdev Mashal,Sukhdev Mashal,55,Male,4400,SZH7645856
+771,Rajendra Sukhdev Mashal,Sukhdev Mashal,54,Male,4400,DMV1894872
+772,Dagdu Narsu Chauhan,Narsu Chauhan,84,Male,4403,DMV1889559
+773,Laxmi Dagdu Chauhan,Dagdu Chauhan,75,Female,4403,SZH7645872
+774,Shivaji Dagdu Chauhan,Dagdu Chauhan,64,Male,4403,SZH0074984
+775,Sambhaji Dagdu Chauhan,Dagdu Chauhan,62,Male,4403,SZH7645898
+776,Somnath Dagdu Chauhan,Dagdu Chauhan,59,Male,4403,SZH0075027
+777,Shobha Sambhaji Chauhan,Sambhaji Chauhan,57,Female,4403,SZH0075019
+778,Gorakh Dagdu Chauhan,Dagdu Chauhan,57,Male,4403,DMV1889542
+779,Sharda Shivaji Chauhan,Shivaji Chauhan,57,Female,4403,SZH7645880
+780,Alka Somnath Chauhan,Somnath Chauhan,54,Female,4403,SZH0075035
+781,Subhdrabai Narsu Chauhan,Narsu Chauhan,44,Female,4403,SZH7645864
+782,Nirmala Gorakh Chavhan,Gorakh Chavhan,41,Female,4403,DMV1888809
+783,Godavari Laxman Vagh,Laxman Vagh,79,Female,4403,SZH0075043
+784,Nand Kumar Laxman Vagh,Laxman Vagh,64,Male,4403,SZH7645906
+785,Ankush Laxman Vagh,Laxman Vagh,59,Male,4403,SZH7645914
+786,Rekha Nand Kumar Vagh,Nand Kumar Vagh,57,Female,4403,DMV1916956
+787,Chhaya Ankush Vagh,Ankush Vagh,54,Female,4403,SZH7645922
+788,Suman Somnath Sagle,Somnath Sagle,40,Female,4408,SZH3539905
+789,Mayuri Uttarn Gavli,Uttam Gavli,40,Female,4410,SZH6325401
+790,Suwarna Ganesh Bhende,Ganesh Bhende,34,Female,4411,SZH2710184
+791,Sunder Kondiba Bhendegavall,Kondiba Bhendegavali,69,Female,4411,SZH6325369
+792,Dagdu Ramchandra Bhendegavali,Ramchandra Bhendegavali,64,Male,4411,SZH7645955
+793,Radha Bai Dagdu Bhendegavali,Dagdu Bhendegavalı,59,Female,4411,SZH7645963
+794,Shankar Ramchandra Bhendegavali,Ramchandra Bhendegavali,57,Male,4411,SZH7645989
+795,Mahadev Ramchandra Bhendegavall,Ramchandra Bhendegavali,55,Male,4411,SZH7646003
+796,Sunita Manik Bhendegavali,Manik Bhendegavall,55,Female,4411,SZH7645971
+797,Mangal Shankar Bhendegavali,Shankar Bhendegavali,52,Female,4411,SZH7645997
+798,Asha Mahadev Bhendegavali,Mahadev Bhendegavali,49,Female,4411,SZH7646011
+799,Kalpana Mohan Bhenden,Mohan Bhenden,33,Female,4411,SZH2710176
+800,Rajni Sanjay Ghogale,Sanjay Ghogale,43,Female,4411,SZH6003313
+801,Vijay Dagdu Kavde,Dagdu Kavde,71,Male,4411,SZH0075277
+802,Sindhu Vijay Kavde,Vijay Kavde,57,Female,4411,SZH0075287
+803,Kiran Vijay Kavde,Vijay Kavde,33,Male,4411,DMV1900794
+804,Mayuri Kiran Kavde,Kiran Kavde,33,Female,4411,SZH6003305
+805,Namdev Damodar Lavand,Damodar Lavand,65,Male,4411,SZH0075209
+806,Rangnath Damodar Lavand,Damodar Lavand,57,Male,4411,DMV1900786
+807,Rukmini Namdev Levand,Namdev Lavand,55,Female,4411,DMV1900786
+808,Radha Bai Rangnath Lavand,Rangnath Lavand,53,Female,4411,SZH0075217
+809,Roopali Sanjay Lavand,Sanjay Lavand,44,Female,4411,SZH2027498
+810,Tanaji Namdev Lavand,Namdev Lavand,33,Male,4411,DMV2478378
+811,Anuradha Santosh Lavand,Santosh Lavand,33,Female,4411,SZH6325336
+812,Balu Bapu Sukare,Bapu Sukare,69,Male,4411,SZH0075188
+813,Sunita Balu Sukare,Balu Sukare,63,Female,4411,SZH0075198
+814,Dynaneshvar Bapu Sukare,Bapu Sukare,60,Male,4411,SZH0075178
+815,Suvarna Dynaneshvar Sukare,Dynaneshvar Sukare,50,Female,4411,SZH7645930
+816,Sachin Balu Sukare,Balu Sukare,42,Male,4411,SZH6325344
+817,Shivaji Kisan Tamakhane,Kisan Tamakhane,79,Male,4411,DMV1879139
+818,Rukmini Shivaji Tamakhane,Shivaji Tamakhane,69,Female,4411,DMV1879121
+819,Amol Ankush Vagh,Ankush Vagh,35,Male,4411,SZH2027480
+820,Appa Kondiba Bhendegavali,Kondiba Bhendegavall,73,Male,4411 B,SZH7646037
+821,Bayadabal Appa Bhendegavali,Appa Bhendegavall,63,Female,4411 B,SZH7646045
+822,Sanjay Damodar Lavand,Damodar Lavand,42,Male,4411 B,SZH6325351
+823,Santosh Namdev Lavand,Namdev Lavand,41,Male,4411 Pandh,SZH2027506
+824,Kantabai Shankar Rao Vagh,Shankar Rao Vagh,77,Female,4411a,SZH7646029
+825,Somnath Shankar Rao Vagh,Shankar Rao Vagh,51,Male,4411a,DMV1879881
+826,Nagnath Shankar Rao Vagh,Shankar Rao Vagh,48,Male,4411a,DMV1925288
+827,Vidya Somnath Wagh,Somnath Vagh,41,Female,4411a,DMV1879873
+828,Sanjay Damodar Lavand,Damodar Lavand,50,Male,4411b,SZH7645948
+829,Sham Rao Motiram Dhotre,Motiram Dhotre,49,Male,4412,SZH6325377
+830,Laxmi Dagdu Kavde,Dagdu Kavde,87,Female,4412,SZH7646052
+831,Hanumant Dagdu Kavde,Dagdu Kavde,74,Male,4412,DMV1885664
+832,Meera Hanmant Kavde,Hanmant Kavde,64,Female,4412,SZH0075267
+833,Mahadev Hanmant Kavde,Hanmant Kavde,54,Male,4412,SZH0075297
+834,Rakesh Hanmant Kavde,Hanmant Kavde,48,Male,4412,DMV1885540
+835,Sangeeta Vijay Kavde,Vijay Kavde,47,Female,4412,SZH7646060
+836,Kamal Tukaram Vasekar,Tukaram Vasekar,47,Female,4412,SZH2710192
+837,Ismail Gulmohhammad Tamboli,Gulmohhammad Tamboll,77,Male,4412b,SZH7646078
+838,Faijunnisa İsmail Tamboli,Ismail Tamboli,65,Female,4412b,SZH0075324
+839,Rafiq Ismail Tamboli,Ismail Tamboli,42,Male,4412b,DMV1885219
+840,Bharat Lingu Kore,Lingu Kore,61,Male,4413,DMV1922707
+841,Kiran Balkrishna Morgaonkar,Balkrishna Morgaonkar,64,Male,4413,DMV1923077
+842,Usha Kiran Morgaonkar,Kiran Morgaonkar,54,Female,4413,DMV1923895
+843,Rakhma Laxman Pawar,Laxman Pawar,82,Female,4414,SZH3539921
+844,Rambhau Laxman Pawar,Laxman Pawar,62,Male,4414,SZH3539939
+845,Balu Krishna Pawar,Krishna Pawar,62,Male,4414,DMV1896414
+846,Chhaya Balu Pawar,Balu Pawar,57,Female,4414,SZH7646086
+847,Vithabai Rangnath Pawar,Rangnath Pawar,57,Female,4414,DMV1895143
+848,Kondiba Balu Pawar,Balu Pawar,43,Male,4414,DMV1894013
+849,Shallaja Aroon Raut,Aroon Raut,59,Female,4414a,DMV1917921
+850,Yogesh Bajrang Gharpure,Bajrang Gharpure,41,Male,4415 B,SZH2027530
+851,Siddheshwar Bhimrao Bhosle,Bhimrao Bhosle,94,Male,4415b,SZH7646110
+852,Shashikala Siddheshwar Bhosle,Siddheshwar Bhosle,78,Female,4415b,SZH7646128
+853,Ghanshyam Siddheshwar Bhosle,Siddheshwar Bhosle,64,Male,4415b,SZH7646136
+854,Padma Ghanshyam Bhosle,Ghanshyam Bhosle,54,Female,4415b,SZH7646144
+855,Shantabai Namdev Dhotre,Namdev Dhotre,71,Female,4415b,SZH7646151
+856,Kondiram Namdev Dhotre,Namdev Dhotre,57,Male,4415b,DMV1896463
+857,Pandurang Namdev Dhotre,Namdev Dhotre,50,Male,4415b,SZH2027548
+858,Kalpana Kondiram Dhotre,Kondiram Dhotre,49,Female,4415b,SZH0075415
+859,Yashoda Bajrang Gharpure,Bajrang Gharpure,55,Female,4415b,DMV1884535
+860,Vitthal Balu Dhotre,Balu Dhotre,64,Male,4417,DMV1912427
+861,Ambika Vitthal Dhotre,Vitthal Dhotre,54,Female,4417,DMV1900505
+862,Laxmi Pandurang Dhotre,Pandurang Dhotre,52,Female,4417,DMV1900497
+863,Vijay Namdev Dhotre,Namdev Dhotre,49,Male,4417a,SZH7646169
+864,Deepak Namdev Dhotre,Namdev Dhatre,48,Male,4417a,SZH2027555
+865,Mauli Shankar Bhendegavall,Shankar Bhendegavall,33,Male,4418,SZH6003289
+866,Pradnya Prasad Hucche Gavall,Prasad Hucche gavali,25,Female,4418,SZH7434715
+867,Maruti Dadu Sawant,Dadu Sawant,84,Male,4418,SZH7646177
+868,Laxman Maruti Sawant,Maruti Sawant,61,Male,4418,SZH0075449
+869,Sunita Laxman Sawant,Laxman Sawant,56,Female,4418,SZH0075455
+870,Uttam Girjappa Gavli,Girjappa Gavli,69,Male,4418a,SZH7646185
+871,Sharda Uttam Gavil,Uttam Gavli,61,Female,4418a,SZH7646193
+872,Sukhdev Dadu Sawant,Dadu Sawant,99,Male,4419,SZH0075485
+873,Gokul Sukhdev Sawant,Sukhdev Sawant,67,Male,4419,SZH0075506
+874,Jayashri Gokul Sawant,Gokul Sawant,59,Female,4419,SZH0075514
+875,Vitthal Sukhdev Sawant,Sukhdev Sawant,55,Male,4419,SZH0075522
+876,Urmila Vitthal Sawant,Vitthal Sawant,42,Female,4419,DMV1887264
+877,Suman Aroon Salunkhe,Aroon Salunkhe,76,Female,4420,SZH3539962
+878,Aroon Tukaram Salunkhe,Tukaram Salunkhe,74,Male,4420,SZH3539970
+879,Chandrakant Tukaram Salunkhe,Tukaram Salunkhe,64,Male,4420,SZH7646201
+880,Vinayak Tukaram Salunkhe,Tukaram Salunkhe,59,Male,4420,DMV1910553
+881,Leela Vinayak Salunkhe,Vinayak Salunkhe,57,Female,4420,DMV1919380
+882,Bharti Chandrakant Salunkhe,Chandrakant Salunkhe,57,Female,4420,SZH2027563
+883,Manık Tukaram Salunkhe,Tukaram Salunkhe,54,Male,4420,SZH7646219
+884,Rani Manık Salunkhe,Manik Salunkhe,52,Female,4420,SZH2027571
+885,Kisan Gangaram Dhotre,Gangaram Dhotre,69,Male,4421,SZH7646235
+886,Shantabai Kisan Dhotre,Kisan Dhotre,64,Female,4421,SZH6325435
+887,Bapu Dattatreya Dhule,Dattatreya Dhule,76,Male,4421,SZH8143570
+888,Kushaba Tatyaba Gayakwad,Tatyaba Gayakwad,94,Male,4421,SZH7646276
+889,Maruti Bapu Gayakwad,Bapu Gayakwad,84,Male,4421,DMV1926278
+890,Kalabai Maruti Gayakwad,Maruti Gayakwad,69,Female,4421,SZH0075613
+891,Jagan Shankar Gayakwad,Shankar Gayakwad,68,Male,4421,SZH7646284
+892,Lalita Laxman Gayakwad,Laxman Gayakwad,62,Female,4421,DMV1888312
+893,Shobha Raghunath Gayakwad,Raghunath Gayakwad,54,Female,4421,SZH0075605
+894,Ganesh Maruti Gayakwad,Maruti Gayakwad,52,Male,4421,SZH0075621
+895,Savita Ganesh Gayakwad,Ganesh Gayakwad,50,Female,4421,SZH0075639
+896,Sangeeta Ramu Gayakwad,Ramu Gayakwad,46,Female,4421,DMV1888338
+897,Raju Laxman Gayakwad,Laxman Gayakwad,42,Male,4421,DMV1891787
+898,Jayashri Ravindra Gayakwad,Ravindra Gayakwad,41,Female,4421,DMV1925981
+899,Ramdas Kondaji Jadhav,Kondaji Jadhav,79,Male,4421,SZH6325393
+900,Bharat Ramdas Jadhav,Ramdas Jadhav,53,Male,4421,SZH7646318
+901,Deepak Valmik Jadhav,Valmik Jadhav,51,Male,4421,DMV1926385
+902,Mahananda Sanjay Jadhav,Sanjay Jadhav,51,Female,4421,SZH7646268
+903,Jyoti Bharat Jadhav,Bharat Jadhav,51,Female,4421,SZH7646300
+904,Rekha Deepak Jadhav,Deepak Jadhav,50,Female,4421,SZH7646292
+905,Vijay Digamber Sonar,Digamber Sonar,59,Male,4421,SZH7646250
+906,Dilip Raghunath Waghmare,Raghunath Waghmare,69,Male,4421,SZH7646243
+907,Ashok Shetty Dhotre,Shetty Dhotre,59,Male,4421 A,SZH3539988
+908,Mangla Ashok Dhotre,Ashok Dhotre,51,Female,4421 A,SZH3539996
+909,Laxman Hari Gayakwad,Hari Gayakwad,67,Male,4421 A,DMV1891241
+910,Aakash Dashrath Jadhav,Dashrath Jadhav,55,Male,4421 A,SZH7646334
+911,Mangia Prakash Pawar,Prakash Pawar,61,Female,4421 A,SZH3540002
+912,Pandurang Vithoba Pawar,Vithoba Pawar,57,Male,4421 A,SZH6325468
+913,Mahananda Pandurang Pawar,Pandurang Pawar,54,Female,4421 A,SZH6325476
+914,Sita Bai Prakash Pawar,Prakash Pawar,54,Female,4421 A,SZH6325450
+915,Dagdu Nana Vasekar,Nana Vasekar,84,Male,4421 B,SZH6325484
+916,Hirabai Dagdu Vasekar,Dagdu Vasekar,79,Female,4421 B,SZH7646342
+917,Dynaneshvar Dagdu Vasekar,Dagdu Vasekar,56,Male,4421 B,SZH7646359
+918,Savitra Savata Vasekar,Savata Vasekar,54,Female,4421 B,SZH0075712
+919,Sangeeta Dynaneshvar Vasekar,Dynaneshvar Vasekar,51,Female,4421 B,SZH7646367
+920,Kamlabai Ramdas Jadhav,Ramdas Jadhav,71,Female,4421a,SZH6325443
+921,Vimalbai Valmik Jadhav,Valmik Jadhav,64,Female,4421a,SZH7646227
+922,Jayashri Tulsiran Jadhav,Kondaji Jadhav,61,Female,4421a,DMV1926369
+923,Tulsidas Kondaji Jadhav,Kondaji Jadhav,70,Male,4421a,SZH7646326
+924,Seema Akash Jadhav,Akash Jadhav,26,Female,4421,SZH7192651
+925,Ramchandra Kerappa Ankushrao,Kerappa Ankushrao,82,Male,4422,SZH2027589
+926,Vikki Ramchandra Ankushrao,Ramchandra Ankushrao,48,Male,4422,SZH7646375
+927,Piyush Ankushrav,Vicky Ankushrao,19,Male,4422,SZH8494866
+928,Sunil Bajirao Gayakwad,Bajirao Gayakwad,82,Male,4422,SZH3540010
+929,Mangal Anantrao Gayakwad,Anantrao Gayakwad,58,Female,4422,SZH7646383
+930,Surekha Aakash Jadhav,Aakash Jadhav,41,Female,4422,DMV1887991
+931,Laxman Manohar Shinde,Manohar Shinde,69,Male,4422,SZH7646409
+932,Anusaya Laxman Shinde,Laxman Shinde,64,Female,4422,SZH7646391
+933,Santosh Laxman Shinde,Laxman Shinde,51,Male,4422,DMV1900075
+934,Waman Tukaram Vasekar,Tukaram Vasekar,46,Male,4422,SZH6325500
+935,Savita Dagdu Vasekar,Dagdu Vasekar,59,Male,4422b,SZH6325492
+936,Kaveribal Govind Rao Bhosle,Govind Rao Bhosle,69,Female,4423,DMV1897222
+937,Kalidas Manohar Nagane,Manohar Nagane,94,Male,4423,SZH7646433
+938,Tanaji Manohar Shinde,Manohar Shinde,67,Male,4423,SZH7646425
+939,Kamal Vasant Vibhute,Vasant Vibhute,78,Female,4425,SZH6003297
+940,Ambadas Vasant Rao Vibhute,Vasant Rao Vibhute,54,Male,4425,SZH2027605
+941,Lakshnam Vasant Rao Vibhute,Vasant Rao Vibhute,47,Male,4425,DMV1909597
+942,Ravindra Raghunath Gayakwad,Raghunath Gayakwad,44,Male,4429,DMV1925999
+943,Babita Prakash Jadhav,Prakash Jadhav,42,Female,4429,DMV1888320
+944,Yogesh Bhagwan Londhe,Bhagwan Londhe,33,Male,4487,DMV2476091
+945,Balbhim Narayan Kolekar,Narayan Kolekar,62,Male,4665,SZH6325518
+946,Shivaji Narayan Kolekar,Narayan Kolekar,59,Male,4665,SZH7646466
+947,Jayashri Balbhim Kolekar,Balbhim Kolekar,57,Female,4665,SZH6325526
+948,Sindhu Shivaji Kolekar,Shivaji Kolekar,48,Female,4665,SZH0075871
+949,Laxmi Kalidas Nagane,Kalidas Nagane,57,Female,4665,SZH7646441
+950,Appasahebamanohar Nagane,Manohar Nagane,49,Male,4665,DMV1899509
+951,Shweta Arun Raut,Arun Raut,34,Female,4414/2,SZH2027522
+952,Adinath Bhairavnath Raval,Bhairavnath Raval,74,Male,4416 A/1,SZH7646094
+953,Kalpana Adinath Raval,Adinath Raval,68,Female,4416 A/1,SZH7646102
+954,sonali vasekar,mahesh vasekar,23,Female,4422/1 dale gall,SZH8398497
+955,Shivaji Manohar Shinde,Manohar Shinde,69,Male,4423/1,SZH7646417
+956,Sarika Lavand,Girish Lavand,30,Female,4411/B2/1,SZH8520447
+957,KALPANA CHOUDHARI,ASHOK CHOUDHARI,38,Female,GHAR NO-4400,SZH8604662
+958,ASHOK CHOUDHARI,HARIBHAU CHOUDHARI,45,Male,GHAR NO-4400,SZH8604761
+959,SMITA NITIN SAGARE,NITIN SAGARE,37,Female,GHAR NO-4396,SZH8610818
+960,JYOTI SAGAR MORGAONKAR,SAGAR KIRAN MORGAONKAR,27,Female,SHINDE NAIK NAGAR,SZH8611386
+961,SMITA NITIN SAGARE,NITIN DIGAMBAR SAGARE,37,Female,Η NO 4396,SZH8650418
+962,Krunal Bharat Nagamal,Bharat Nagamal,35,Male,4240E,SZH8681728
+963,Pranav Chandrakant Nikam,Chandrakant Laxman Nikam,18,Male,"355, Dale Galli ",SZH8684532
+964,Rinku Rakesh Kawade,Rakesh Hanmant Kawade,18,Female,"4412, Dale Gall ",SZH8717647

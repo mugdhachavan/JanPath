@@ -1,0 +1,59 @@
+/* Specific styles for the Login page */
+body {
+    background: linear-gradient(135deg, #e0f2f7 0%, #b3e0ff 100%); /* Light blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #2196f3; /* Government blue */
+    font-weight: 500;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2196f3; /* Government blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}
+
+.footer-info {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.footer-info img {
+    max-width: 120px;
+    margin-top: 10px;
+    opacity: 0.8;
+}

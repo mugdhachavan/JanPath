@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Campaign AI Assistant</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='chatbot/style.css') }}">
+</head>
+<body>
+  <div class="chatbot-wrapper">
+    <header class="chat-header">
+      <div class="title">🧠 Campaign AI Assistant</div>
+      <div class="subtitle">Live voter analytics + GPT-like answers</div>
+    </header>
+
+    <main id="chatWindow" class="chat-window"></main>
+
+    <div class="chat-input-row">
+      <input id="chatInput" type="text" placeholder="Ask anything (e.g., 'female supporters', 'booth 12', 'top issues')">
+      <button id="voiceBtn" title="Voice Input">🎙️</button>
+      <button id="sendBtn">Send</button>
+    </div>
+
+  </div>
+
+  <script src="{{ url_for('static', filename='chatbot/script.js') }}"></script>
+</body>
+</html>

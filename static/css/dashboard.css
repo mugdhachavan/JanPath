@@ -1,0 +1,1142 @@
+/* =================================================================
+   UNIFIED DASHBOARD STYLESHEET (dashboard.css)
+   Scope: Admin, Candidate, Worker dashboards
+================================================================= */
+
+/* --- Root Variables --- */
+:root {
+  --primary-blue: #0052cc;
+  --accent-green: #00a383;
+  --accent-red: #e55353;
+  --accent-amber: #f59e0b;
+  --bg-light: #f4f7f6;
+  --surface-light: #ffffff;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --border-color: #dee2e6;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.04);
+  --shadow-md: 0 5px 15px rgba(0,0,0,0.06);
+  --focus-ring: 0 0 0 3px rgba(0,82,204,0.15);
+}
+
+/* --- Global Reset --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', 'Segoe UI', system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* --- Utilities --- */
+.hidden { display: none !important; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+/* =================================================================
+   Header & Navigation
+================================================================= */
+.main-header {
+  background-color: var(--surface-light);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: 1400px; margin: 0 auto; height: 70px;
+}
+
+.logo { font-size: 1.6rem; font-weight: 600; text-decoration: none; color: var(--primary-blue); }
+
+.main-nav ul { list-style: none; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.main-nav a {
+  text-decoration: none; color: var(--text-muted); font-size: 0.95rem; font-weight: 500;
+  padding: 0.5rem 0.9rem; border-radius: 8px; transition: all 0.2s ease-in-out;
+}
+
+.main-nav a:hover { color: var(--primary-blue); background-color: #eef4ff; }
+
+.main-nav a.active { color: var(--primary-blue); background-color: #e2eafc; font-weight: 600; }
+
+.user-menu { display: flex; align-items: center; gap: 1rem; font-size: 0.9rem; color: var(--text-muted); }
+
+.logout-btn {
+  text-decoration: none; color: var(--primary-blue); background: transparent;
+  border: 1px solid var(--border-color); padding: 0.4rem 1rem; border-radius: 8px; font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.logout-btn:hover { background-color: var(--primary-blue); color: #fff; border-color: var(--primary-blue); }
+
+/* =================================================================
+   Layout
+================================================================= */
+main { padding: 2rem; }
+.container { max-width: 1400px; margin: 0 auto; }
+
+.dashboard-section {
+  background-color: var(--surface-light);
+  border-radius: 12px; padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+}
+.dashboard-section:not(:last-child) { margin-bottom: 2rem; }
+
+.dashboard-section h3 {
+  font-size: 1.5rem; font-weight: 600; color: var(--text-dark);
+  margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border-color);
+}
+.section-subtitle { color: var(--text-muted); margin-top: -0.75rem; margin-bottom: 1.25rem; }
+
+/* =================================================================
+   Forms & Grids
+================================================================= */
+.form-group { margin-bottom: 1.1rem; }
+
+.form-group label {
+  display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.9rem; color: var(--text-muted);
+}
+
+input, select, textarea {
+  width: 100%; padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color); border-radius: 8px;
+  font-size: 1rem; font-family: inherit; transition: all 0.2s ease-in-out;
+  background-color: #fff; color: var(--text-dark);
+}
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary-blue); box-shadow: var(--focus-ring); }
+
+textarea { resize: vertical; min-height: 100px; }
+
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+/* Form-grid will be handled by the new professional sections CSS */
+
+
+
+/* =================================================================
+   Buttons
+================================================================= */
+button {
+  padding: 0.7rem 1.2rem; border: none; border-radius: 8px; cursor: pointer;
+  font-size: 1rem; font-weight: 500; font-family: inherit; transition: all 0.2s ease-in-out;
+}
+button, button[type="submit"], #searchBtn { background-color: var(--primary-blue); color: #fff; }
+button:hover, button[type="submit"]:hover, #searchBtn:hover { background-color: #0041a3; }
+
+button:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.button-ghost {
+  background: transparent; color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+}
+.button-ghost:hover { background: #eef4ff; }
+
+.apply-filters-button { background-color: var(--accent-green); color: #fff; }
+.apply-filters-button:hover { background-color: #008a6e; }
+
+/* Small icon buttons for table actions */
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 36px; height: 36px; padding: 0 0.6rem; border-radius: 8px;
+  background: #f3f6ff; color: var(--primary-blue); border: 1px solid #e2e8ff;
+}
+.icon-btn:hover { background: #e9f0ff; }
+
+.btn-danger { background: var(--accent-red); }
+.btn-danger:hover { filter: brightness(0.95); }
+.btn-amber { background: var(--accent-amber); color: #111827; }
+.btn-amber:hover { filter: brightness(0.97); }
+
+/* =================================================================
+   Tables
+================================================================= */
+.table-responsive {
+  overflow-x: auto; border: 1px solid var(--border-color);
+  border-radius: 12px; margin-top: 1rem;
+}
+
+table { width: 100%; border-collapse: collapse; }
+
+th, td {
+  padding: 0.9rem 1rem; text-align: left; border-bottom: 1px solid var(--border-color);
+}
+
+thead th {
+  background-color: #f8f9fa; font-weight: 600; font-size: 0.9rem;
+  color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background-color: #f8f9fa; }
+
+td.actions { white-space: nowrap; display: flex; gap: 0.5rem; align-items: center; }
+
+.badge {
+  display: inline-block; padding: 0.35rem 0.6rem; border-radius: 999px;
+  font-size: 0.78rem; font-weight: 600; line-height: 1;
+}
+.badge.pending { background: #fff3cd; color: #8a6d3b; border: 1px solid #ffe69c; }
+.badge.progress { background: #e0ecff; color: #1e40af; border: 1px solid #bfd7ff; }
+.badge.completed { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
+
+/* =================================================================
+   Pagination
+================================================================= */
+#pagination {
+  margin-top: 1rem; display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem;
+}
+#pagination button { padding: 0.5rem 1rem; font-size: 0.9rem; }
+#pagination span { font-size: 0.9rem; color: var(--text-muted); font-weight: 500; }
+
+/* =================================================================
+   Expandable Voter Details
+================================================================= */
+.voter-details-row td {
+  padding: 0 !important; border-top: none;
+  border-bottom: 2px solid var(--primary-blue) !important;
+}
+
+.voter-details {
+  background-color: #fdfdff; padding: 1.5rem;
+  animation: slideDown 0.25s ease-out;
+  border-top: 1px dashed var(--border-color);
+}
+.voter-details h4 {
+  font-size: 1.15rem; color: var(--primary-blue); font-weight: 600;
+  margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color);
+}
+
+/* --- Static voter details (top block) --- */
+/* Using Flexbox for a clean, wrapping row-based layout */
+.voter-details .details-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    gap: 0.75rem 2rem; /* Vertical and horizontal gap */
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6; /* Adds a separator line */
+}
+
+/* Each detail item within the flex container */
+.voter-details .details-grid p {
+    flex: 1 1 calc(33.333% - 2rem); /* Aim for 3 items per row, adjusting for gap */
+    min-width: 220px; /* Ensures items don't get too squished */
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    line-height: 1.5;
+    display: flex;
+    align-items: baseline; /* Aligns label and value nicely */
+}
+
+.voter-details .details-grid p strong {
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-right: 8px;
+    flex-shrink: 0; /* Prevents the label from shrinking on smaller widths */
+}
+
+/* NEW: Style for "Not provided" values */
+/* To use this, wrap the value in a span: <span>Not provided</span> */
+.voter-details .not-provided {
+    color: #9ca3af; /* Muted grey */
+    font-style: italic;
+}
+
+
+/* --- Update form (bottom block) --- */
+/* A more structured, responsive grid for the form */
+.voter-details .form-grid {
+    display: grid;
+    /* Creates 2 responsive columns, collapsing to 1 on smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem 1.5rem; /* Increased gap for better spacing */
+}
+
+/* Wrapper for each label-input pair */
+.voter-details .form-grid .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* A utility class to make an element span the full grid width */
+.voter-details .form-grid .full-width {
+    grid-column: 1 / -1;
+}
+
+.voter-details .form-grid label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+}
+
+.voter-details .form-grid input,
+.voter-details .form-grid select,
+.voter-details .form-grid textarea {
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px; /* Slightly more rounded corners */
+    font-size: 0.95rem;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); /* Subtle shadow */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Adding a focus state for better accessibility and UX */
+.voter-details .form-grid input:focus,
+.voter-details .form-grid select:focus,
+.voter-details .form-grid textarea:focus {
+    outline: none;
+    border-color: #3b82f6; /* Example focus color */
+    box-shadow: 0 0 0 3px rgb(59 130 246 / 0.3);
+}
+
+.voter-details .form-grid textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* A dedicated container for form actions/buttons */
+.voter-details .form-actions {
+    grid-column: 1 / -1; /* Spans the full width */
+    display: flex;
+    justify-content: flex-end; /* Aligns button to the right */
+    margin-top: 1rem;
+}
+
+.voter-details .save-details-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: none;
+    background: #059669;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.voter-details .save-details-btn:hover:not(:disabled) {
+    background: #047857;
+}
+
+.voter-details .save-details-btn:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+
+@keyframes slideDown { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+
+/* =================================================================
+   Enhanced Communication & Reports Sections
+   Replace the existing card-related CSS in dashboard.css
+================================================================= */
+
+/* Form improvements for Communication & Reports */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+/* Full-width form elements */
+.form-grid .form-group[style*="grid-column: 1 / -1"] {
+  grid-column: 1 / -1;
+}
+
+/* Enhanced form styling */
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.form-group button[type="submit"] {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, #0041a3 100%);
+  color: white;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 82, 204, 0.2);
+  min-width: 140px;
+}
+
+.form-group button[type="submit"]:hover {
+  background: linear-gradient(135deg, #0041a3 0%, #003489 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 82, 204, 0.3);
+}
+
+/* Professional Card Layout */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-blue), var(--accent-green));
+  border-radius: 16px 16px 0 0;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-blue);
+}
+
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Add icons to card titles */
+.card h4::before {
+  content: '📝';
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Different icons for different sections */
+#messagesContainer .card h4::before {
+  content: '💬';
+}
+
+#reportsContainer .card h4::before {
+  content: '📊';
+}
+
+.card .meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.card .meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #f8fafc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.8rem;
+}
+
+.card .meta span:first-child::before {
+  content: '👥';
+  margin-right: 0.25rem;
+}
+
+.card .meta span:last-child::before {
+  content: '📅';
+  margin-right: 0.25rem;
+}
+
+.card p {
+  color: var(--text-dark);
+  font-size: 0.975rem;
+  line-height: 1.6;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Enhanced empty states */
+.card-list:empty::after {
+  content: 'No items found. Create your first entry using the form above.';
+  display: block;
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 3rem 1rem;
+  background: #f8fafc;
+  border: 2px dashed var(--border-color);
+  border-radius: 12px;
+  grid-column: 1 / -1;
+}
+
+/* Section headers enhancement */
+.dashboard-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--primary-blue);
+  position: relative;
+}
+
+/* Section icons */
+#communication h3::before {
+  content: '📢';
+  font-size: 1.5rem;
+}
+
+#reports h3::before {
+  content: '📋';
+  font-size: 1.5rem;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Loading states */
+.card-list[aria-live="polite"]:empty::before {
+  content: 'Loading...';
+  display: block;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  padding: 2rem;
+  animation: pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .card-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .card {
+    padding: 1.25rem;
+  }
+  
+  .card .meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+/* Professional animations */
+.card, .form-group button[type="submit"] {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus states for accessibility */
+.card:focus-within {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 4px;
+}
+/* =================================================================
+   Household Table (Grouped)
+================================================================= */
+#householdTable td:first-child { font-weight: 600; color: var(--primary-blue); }
+.household-list {
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+}
+.household-list .chip {
+  border: 1px solid var(--border-color); padding: 0.25rem 0.5rem; border-radius: 999px;
+  font-size: 0.82rem; background: #fafafa;
+}
+
+/* =================================================================
+   Footer
+================================================================= */
+.main-footer {
+  text-align: center; color: var(--text-muted);
+  font-size: 0.9rem; padding: 1.5rem 1rem; margin-top: 1rem;
+}
+
+/* =================================================================
+   Responsive Tweaks
+================================================================= */
+@media (max-width: 980px) {
+  .header-content { height: auto; padding: 0.8rem 0; gap: 0.75rem; }
+  .main-nav ul { justify-content: center; }
+  .user-menu { justify-content: flex-end; width: 100%; }
+  main { padding: 1rem; }
+  .dashboard-section { padding: 1.25rem; }
+}
+
+@media (max-width: 640px) {
+  .main-nav a { padding: 0.45rem 0.7rem; }
+  th, td { padding: 0.75rem; }
+  .search-container { gap: 0.6rem; }
+  .voter-details .form-grid { grid-template-columns: 1fr; }
+  .voter-details .save-details-btn { width: 100%; float: none; }
+}
+
+/* =================================================================
+   Accessibility
+================================================================= */
+a:focus-visible, .logout-btn:focus-visible, .main-nav a:focus-visible {
+  outline: none; box-shadow: var(--focus-ring);
+}
+
+[role="navigation"] button:focus-visible { box-shadow: var(--focus-ring); }
+
+/* =================================================================
+   Print Helpers
+================================================================= */
+@media print {
+  .main-header, .main-footer, .search-container, #pagination { display: none !important; }
+  body { background: #fff; }
+  .dashboard-section { box-shadow: none; border: none; padding: 0; }
+}
+/* Inline filters for Manage Voters */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* filters left, button right */
+  gap: 12px;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap; /* wrap on small screens */
+}
+
+.search-container .filters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.search-container .form-inline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.search-container label {
+  margin: 0;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.search-container select {
+  width: 100px; /* 🔹 make filters compact */
+  min-width: 80px;
+}
+
+.search-container input[type="text"] {
+  flex: 2; /* 🔹 grow more than filters */
+  min-width: 300px; /* default longer bar */
+  padding: 0 20px;
+  height: 42px;
+}
+
+.search-container button {
+  background-color: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0 24px;
+  height: 38px;
+  flex-shrink: 0; /* 🔹 keep button fixed size */
+}
+/* Task status dropdown styling */
+.task-status-dropdown {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.85rem;
+  color: var(--text-dark);
+  min-width: 110px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.task-status-dropdown:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: var(--focus-ring);
+}
+
+/* Fix for task table actions columns */
+#taskTable td.actions {
+  white-space: nowrap;
+  display: table-cell; /* Override flex display */
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+}
+
+#taskTable td.delete-column {
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 80px;
+}
+
+/* Ensure proper table layout */
+#taskTable {
+  table-layout: fixed;
+}
+
+#taskTable th:nth-child(1) { width: 20%; } /* Title */
+#taskTable th:nth-child(2) { width: 30%; } /* Description */
+#taskTable th:nth-child(3) { width: 12%; } /* Status */
+#taskTable th:nth-child(4) { width: 12%; } /* Due Date */
+#taskTable th:nth-child(5) { width: 18%; } /* Actions */
+#taskTable th:nth-child(6) { width: 8%; }  /* Delete */
+
+/* ---- Voter Details Styling ---- */
+.voter-form-container {
+  background: #f9fafb;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.voter-form-container label {
+  font-weight: 500;
+  margin-top: 6px;
+  display: block;
+}
+
+.voter-form-container input,
+.voter-form-container textarea,
+.voter-form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* ---- Political Affiliation Badge ---- */
+.affiliation-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.affiliation-supporter {
+  background-color: #22c55e; /* green */
+}
+
+.affiliation-opponent {
+  background-color: #ef4444; /* red */
+}
+
+.affiliation-SwingVoter {
+  background-color: #eab308; /* yellow */
+  color: black;
+}
+
+/* Add these classes to the end of your dashboard.css file */
+
+/* Hub Tab Navigation */
+.hub-nav {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 1.5rem;
+}
+
+.hub-nav-link {
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hub-nav-link:hover {
+    color: var(--primary-blue);
+    background-color: #f8f9fa;
+}
+
+.hub-nav-link.active {
+    color: var(--primary-blue);
+    font-weight: 600;
+    border-color: var(--primary-blue);
+}
+
+/* Hub Tab Content */
+.hub-tab-content {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.hub-tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Task Manager Layout */
+.task-manager-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.task-form-container {
+    background-color: #fdfdff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.task-form-container h4, .task-list-container h4 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+/* Button Size Variants */
+.btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
+}
+
+/* Political Affiliation Badge Colors */
+.affiliation-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.affiliation-supporter {
+    background-color: #22c55e; /* green */
+}
+
+.affiliation-opponent {
+    background-color: #ef4444; /* red */
+}
+
+.affiliation-SwingVoter {
+    background-color: #eab308; /* yellow */
+    color: black;
+}
+
+/* Badge status classes for tasks */
+.badge.pending {
+    background: #fff3cd;
+    color: #8a6d3b;
+    border: 1px solid #ffe69c;
+}
+
+.badge.progress, .badge.inprogress {
+    background: #e0ecff;
+    color: #1e40af;
+    border: 1px solid #bfd7ff;
+}
+
+.badge.completed {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+/* Form grid for the communication section */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: start;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .task-manager-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.chatbot-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.message {
+    padding: 10px;
+    margin: 8px 0;
+    max-width: 75%;
+    border-radius: 6px;
+}
+
+.user {
+    background: #d1ecf1;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.bot {
+    background: #e2e3e5;
+    align-self: flex-start;
+}
+
+.input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+#user-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+#send-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* static/chatbot/style.css */
+
+body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: #f3f6f9;
+    color: #222;
+}
+
+.chatbot-wrapper {
+    max-width: 980px;
+    margin: 28px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 22px rgba(16,24,40,0.08);
+    overflow: hidden;
+}
+
+.chat-header {
+    padding: 18px 20px;
+    background: linear-gradient(90deg,#0d6efd,#198754);
+    color: #fff;
+}
+
+.chat-header .title { font-size: 18px; font-weight: 700; }
+.chat-header .subtitle { font-size: 13px; opacity: 0.95; margin-top: 6px; }
+
+.chat-window {
+    height: 62vh;
+    padding: 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: linear-gradient(180deg, #f7fafc, #fff);
+}
+
+.message-row {
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.user-row { justify-content: flex-end; }
+.bot-row { justify-content: flex-start; }
+
+.avatar {
+    width:40px; height:40px; border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:#e9eefb;font-size:18px;
+}
+
+.bubble {
+    max-width: 78%;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: #eef2ff;
+    color: #08123a;
+    line-height: 1.3;
+    box-shadow: 0 2px 8px rgba(16,24,40,0.04);
+}
+
+.user-row .bubble {
+    background: #28a745; color: #fff; border-radius: 12px 12px 0 12px;
+}
+
+.bot-row .bubble {
+    background: #f1f5f9; color: #111827;
+}
+
+.typing .bubble {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.chat-input-row {
+    display:flex;
+    gap:10px;
+    padding: 12px;
+    border-top: 1px solid #e6eef6;
+    align-items: center;
+}
+
+#chatInput {
+    flex:1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+}
+
+#sendBtn {
+    background: #198754;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#voiceBtn {
+    background: #ffd166;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.lang-switch {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.lang-btn {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  background: #ff9800;
+}
