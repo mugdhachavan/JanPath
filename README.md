@@ -1,6 +1,6 @@
 ## 🗳️ Janpath – Dynamic Surveillance & Election Management System
 
-Janpath is a backend-driven Dynamic Surveillance and Election Management System developed to support secure, data-driven monitoring of election-related activities.
+Janpath is a backend-driven Election Management System developed to support secure, data-driven monitoring of election-related activities.
 The system manages voters, candidates, workers, and tasks using a structured database and provides a scalable foundation for real-world election surveillance and administration.
 
 
@@ -12,8 +12,6 @@ The goal of Janpath is to:
 Digitally manage election data
 
 Track candidates, workers, and voter information
-
-Support surveillance and monitoring through structured records
 
 Ensure secure configuration and environment management
 
